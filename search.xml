@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>TODO</title>
+    <url>/2023-04/6c9b5b14/</url>
+    <content><![CDATA[<p>这是我的第一篇文章，也是我这个博客之后将要写的内容的整理。将会持续更新。</p>
+<span id="more"></span>
+<h2 id="文章分类"><a href="#文章分类" class="headerlink" title="文章分类"></a>文章分类</h2><h3 id="python"><a href="#python" class="headerlink" title="python"></a>python</h3><p>编写一些奇奇怪怪的python程序的过程或者心得之类的</p>
+<blockquote>
+<p>TODO  </p>
+<ul>
+<li><input disabled="" type="checkbox"> （可能）重构我的骰娘小程序</li>
+</ul>
+</blockquote>
+<h3 id="U盘"><a href="#U盘" class="headerlink" title="U盘"></a>U盘</h3><p>打造我的全能U盘的过程，我现在在用的U盘是闪迪Cz880 128G，只能说勉强够用。使用ventoy引导，分了两个分区，一个用来放PE的镜像和我的arch to go的虚拟硬盘给ventoy引导，另一个分区用来放portableapps程序和各种便携程序。之后应该会详细介绍的。</p>
+<blockquote>
+<p>TODO  </p>
+<ul>
+<li><input disabled="" type="checkbox"> 利用winpython打造便携编程环境（含VS Code和NodeJs)</li>
+<li><input disabled="" type="checkbox"> 我的U盘中便携软件介绍</li>
+</ul>
+</blockquote>
+<h3 id="Inky"><a href="#Inky" class="headerlink" title="Inky"></a>Inky</h3><p>用来放我自己使用Inky制作的各种文本游戏，但是我近期没有想写的计划。</p>
+<h3 id="Arch"><a href="#Arch" class="headerlink" title="Arch"></a>Arch</h3><p>一些使用Arch时的心得，目前依然没什么想写的计划。</p>
+<h3 id="Other"><a href="#Other" class="headerlink" title="Other"></a>Other</h3><p>记录一些杂七杂八的事情。</p>
+]]></content>
+      <categories>
+        <category>Other</category>
+      </categories>
+      <tags>
+        <tag>Other</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>MarkDown学习笔记</title>
     <url>/2023-04/da7ed36c/</url>
     <content><![CDATA[<p>学习makedown的笔记，记录用。</p>
@@ -133,37 +164,6 @@
       </categories>
       <tags>
         <tag>MarkDown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>TODO</title>
-    <url>/2023-04/6c9b5b14/</url>
-    <content><![CDATA[<p>这是我的第一篇文章，也是我这个博客之后将要写的内容的整理。将会持续更新。</p>
-<span id="more"></span>
-<h2 id="文章分类"><a href="#文章分类" class="headerlink" title="文章分类"></a>文章分类</h2><h3 id="python"><a href="#python" class="headerlink" title="python"></a>python</h3><p>编写一些奇奇怪怪的python程序的过程或者心得之类的</p>
-<blockquote>
-<p>TODO  </p>
-<ul>
-<li><input disabled="" type="checkbox"> （可能）重构我的骰娘小程序</li>
-</ul>
-</blockquote>
-<h3 id="U盘"><a href="#U盘" class="headerlink" title="U盘"></a>U盘</h3><p>打造我的全能U盘的过程，我现在在用的U盘是闪迪Cz880 128G，只能说勉强够用。使用ventoy引导，分了两个分区，一个用来放PE的镜像和我的arch to go的虚拟硬盘给ventoy引导，另一个分区用来放portableapps程序和各种便携程序。之后应该会详细介绍的。</p>
-<blockquote>
-<p>TODO  </p>
-<ul>
-<li><input disabled="" type="checkbox"> 利用winpython打造便携编程环境（含VS Code和NodeJs)</li>
-<li><input disabled="" type="checkbox"> 我的U盘中便携软件介绍</li>
-</ul>
-</blockquote>
-<h3 id="Inky"><a href="#Inky" class="headerlink" title="Inky"></a>Inky</h3><p>用来放我自己使用Inky制作的各种文本游戏，但是我近期没有想写的计划。</p>
-<h3 id="Arch"><a href="#Arch" class="headerlink" title="Arch"></a>Arch</h3><p>一些使用Arch时的心得，目前依然没什么想写的计划。</p>
-<h3 id="Other"><a href="#Other" class="headerlink" title="Other"></a>Other</h3><p>记录一些杂七杂八的事情。</p>
-]]></content>
-      <categories>
-        <category>Other</category>
-      </categories>
-      <tags>
-        <tag>Other</tag>
       </tags>
   </entry>
 </search>
