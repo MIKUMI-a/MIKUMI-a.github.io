@@ -2760,6 +2760,20 @@ h6 {
   padding-bottom: 5px;
   border-bottom: 1px solid #ddd;
 }
+h4::before {
+  color: #be98aa;
+  content: "\f4d8  ";
+  width: 9px;
+  height: 9px;
+  font-family: FontAwesome;
+}
+h5::before {
+  color: #be98aa;
+  content: "\f0c2  ";
+  width: 9px;
+  height: 9px;
+  font-family: FontAwesome;
+}
 blockquote {
   padding: 0.4em 20px;
   margin: 0.5em auto;
