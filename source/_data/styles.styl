@@ -1,0 +1,138 @@
+body {
+    /* 设置背景颜色 */
+    margin: 0;
+    background-color: #be98aa;
+    background-image: 
+    radial-gradient(closest-side, rgba(170, 142, 245, 1), rgba(235, 105, 78, 0)),
+    radial-gradient(closest-side, rgba(190, 151, 170, 1), rgba(243, 11, 164, 0)),
+    radial-gradient(closest-side, rgba(254, 234, 131, 1), rgba(254, 234, 131, 0)),
+    radial-gradient(closest-side, rgba(190, 151, 170, 1), rgba(170, 142, 245, 0)),
+    radial-gradient(closest-side, rgba(248, 192, 147, 1), rgba(248, 192, 147, 0));
+    background-size: 
+    130vmax 130vmax,
+    80vmax 80vmax,
+    90vmax 90vmax,
+    110vmax 110vmax,
+    90vmax 90vmax;
+    background-position:
+    -80vmax -80vmax,
+    60vmax -30vmax,
+    10vmax 10vmax,
+    -30vmax -10vmax,
+    50vmax 50vmax;
+    background-repeat: no-repeat;
+}
+//文章内容透明度设置
+.content.wrap {
+    opacity: 0.6;
+    }
+.post-block {
+    background: rgba(255,255,255,0.5) none repeat scroll !important;
+    }
+//右上角的标题字体颜色
+.site-title{
+    color: #be98aa
+    }
+.site-subtitle{
+    color: #be98aa
+    }
+//菜单透明
+.header{
+    background: rgba(255,255,255,0.5) none repeat scroll !important;
+    }
+//边栏透明
+.sidebar-inner{
+    background: rgba(255,255,255,0.5) none repeat scroll !important;
+    }
+//页脚字体颜色
+.footer{
+    color: #000
+    }
+//评论区透明（不知道有没有用）
+.comments{
+    background: rgba(255,255,255,0.5) none repeat scroll !important;
+    }
+
+//标题设定
+h1
+    color #3e3f4c
+h2
+    margin .5em auto
+    color #3e3f4c
+    padding-bottom 5px
+    font-size 1.5rem
+    &::before
+        color #be98aa
+        content "\f70e  "
+        width: 9px
+        height: 9px
+        font-family: FontAwesome
+h3
+    margin .5em auto
+    color #be98aa
+    background #3e3f4c
+    border-left 4px solid #be98aa
+    padding .2em .6em
+    box-shadow 1px 1px 1px rgba(0,0,0, .1)
+    &:hover a
+        text-decoration underline
+    &::after
+        content " \f061"
+        width: 9px
+        height: 9px
+        font-family: FontAwesome
+h4, h5, h6
+    margin-top 20px
+    padding-bottom 5px
+    border-bottom 1px solid #ddd
+h4::before
+    color #be98aa
+    content "\f4d8  "
+    width: 9px
+    height: 9px
+    font-family: FontAwesome
+h5::before
+    color #be98aa
+    content "\f0c2  "
+    width: 9px
+    height: 9px
+    font-family: FontAwesome
+h6::before
+    color #be98aa
+    content "\f004  "
+    width: 9px
+    height: 9px
+    font-family: FontAwesome
+
+
+blockquote
+    padding .4em 20px
+    margin .5em auto
+    border-left 4px solid #af888a
+    background rgba(241, 229, 222,1)
+    box-shadow 1px 1px 1px rgba(0,0,0, .1)
+    p
+        margin .4em auto
+    blockquote
+        border-left none
+    footer
+        font-style italic
+        cite::before
+            content "—"
+            padding 0 .3em
+
+//按钮 .btn
+.btn
+  background rgba(255, 255,255,0)
+  border 2px solid #3e3f4c
+  //border-radius: $btn-default-radius;
+  color #3e3f4c
+  //display: inline-block;
+  //font-size: $font-size-small;
+  //line-height: 2;
+  //padding: 0 20px;
+  //transition: background-color $transition-ease;
+  &:hover
+    background #3e3f4c
+    border-color #be98aa
+    color #be98aa
