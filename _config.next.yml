@@ -116,7 +116,7 @@ menu:
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
   about: /about/ || fa fa-user
-  ❤: /admin/ || fa fa-heart
+  ❤这里是后台哦~: /admin/ || fa fa-heart
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
