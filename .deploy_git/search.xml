@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>MarkDown学习笔记</title>
+    <url>/2023-04/da7ed36c/</url>
+    <content><![CDATA[<p>学习makedown的笔记，记录用。</p>
+<span id="more"></span>
+<h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><figure class="highlight md"><table><tr><td class="code"><pre><span class="line"><span class="section"># 一级标题</span></span><br><span class="line"><span class="section">## 二级标题</span></span><br><span class="line"><span class="section">### 三级标题</span></span><br><span class="line"><span class="section">#### 四级标题</span></span><br><span class="line"><span class="section">##### 五级标题</span></span><br><span class="line"><span class="section">###### 六级标题</span></span><br></pre></td></tr></table></figure>
+<div class="note "><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6></div>
+
+<h2 id="强调"><a href="#强调" class="headerlink" title="强调"></a>强调</h2><figure class="highlight md"><table><tr><td class="code"><pre><span class="line"><span class="emphasis">*这个是斜体*</span>  </span><br><span class="line"><span class="strong">**这个是粗体**</span>  </span><br><span class="line"><span class="strong">**<span class="emphasis">*这个是粗斜体*</span>**</span>  </span><br><span class="line">~~这个是删除线~~</span><br></pre></td></tr></table></figure>
+<p><em>这个是斜体</em><br><strong>这个是粗体</strong><br><em><strong>这个是粗斜体</strong></em><br><del>这个是删除线</del></p>
+<h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><h3 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h3><figure class="highlight md"><table><tr><td class="code"><pre><span class="line"><span class="bullet">*</span> 1</span><br><span class="line"><span class="bullet">  *</span> 1.1  </span><br><span class="line"><span class="bullet">  *</span> 1.2</span><br><span class="line"><span class="bullet">*</span> 2</span><br><span class="line"><span class="bullet">  *</span> 1.2</span><br></pre></td></tr></table></figure>
+<ul>
+<li>1<ul>
+<li>1.1  </li>
+<li>1.2</li>
+</ul>
+</li>
+<li>2<ul>
+<li>1.2</li>
+</ul>
+</li>
+</ul>
+<h3 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h3><figure class="highlight md"><table><tr><td class="code"><pre><span class="line"><span class="bullet">1.</span> Item 1</span><br><span class="line"><span class="bullet">2.</span> Item 2  </span><br><span class="line">注意，列表前面的序号其实是无关紧要的，渲染时Markdown会自动修改该序号。</span><br><span class="line"><span class="bullet">1.</span> Item 3</span><br><span class="line"><span class="bullet">    1.</span> Item 3a</span><br><span class="line"><span class="bullet">    2.</span> Item 3b</span><br><span class="line"><span class="bullet">2.</span> Item 4</span><br><span class="line"><span class="bullet">    *</span> 有序列表下的无序列表</span><br></pre></td></tr></table></figure>
+<ol>
+<li>Item 1</li>
+<li>Item 2<br>注意，列表前面的序号其实是无关紧要的，渲染时Markdown会自动修改该序号。</li>
+<li>Item 3<ol>
+<li>Item 3a</li>
+<li>Item 3b</li>
+</ol>
+</li>
+<li>Item 4<ul>
+<li>有序列表下的无序列表</li>
+</ul>
+</li>
+</ol>
+<h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><figure class="highlight md"><table><tr><td class="code"><pre><span class="line">| 左对齐 | 右对齐 | 居中对齐 |</span><br><span class="line">| :-| -: | :-: |</span><br><span class="line">| 格 | 格 | 格 |</span><br><span class="line">| 格 | 格 | 格 |</span><br></pre></td></tr></table></figure>
+<table>
+<thead>
+<tr>
+<th align="left">左对齐</th>
+<th align="right">右对齐</th>
+<th align="center">居中对齐</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">格</td>
+<td align="right">格</td>
+<td align="center">格</td>
+</tr>
+<tr>
+<td align="left">格</td>
+<td align="right">格</td>
+<td align="center">格</td>
+</tr>
+</tbody></table>
+<h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><figure class="highlight md"><table><tr><td class="code"><pre><span class="line">[<span class="string">链接名称</span>](<span class="link">https://www.bilibili.com/</span>)  </span><br><span class="line"><span class="language-xml">&lt;https://www.bilibili.com/&gt;</span></span><br></pre></td></tr></table></figure>
+<p><a href="https://www.bilibili.com/">链接名称</a><br><a href="https://www.bilibili.com/">https://www.bilibili.com/</a></p>
+<h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><figure class="highlight md"><table><tr><td class="code"><pre><span class="line">![<span class="string">alt 属性文本</span>](<span class="link">图片地址</span>)</span><br><span class="line">![<span class="string">alt 属性文本</span>](<span class="link">图片地址 &quot;可选标题&quot;</span>)</span><br><span class="line">![<span class="string">RUNOOB 图标</span>](<span class="link">http://static.runoob.com/images/runoob-logo.png</span>)</span><br><span class="line">![<span class="string">RUNOOB 图标</span>](<span class="link">http://static.runoob.com/images/runoob-logo.png &quot;RUNOOB&quot;</span>)</span><br></pre></td></tr></table></figure>
+<p><img src="http://static.runoob.com/images/runoob-logo.png" alt="RUNOOB 图标"><br><img src="http://static.runoob.com/images/runoob-logo.png" alt="RUNOOB 图标" title="RUNOOB"></p>
+<h2 id="任务列表"><a href="#任务列表" class="headerlink" title="任务列表"></a>任务列表</h2><figure class="highlight md"><table><tr><td class="code"><pre><span class="line"><span class="bullet">*</span> [x] 这个是打勾的任务列表。</span><br><span class="line"><span class="bullet">*</span> [ ] 这个是没打勾的任务列表。</span><br></pre></td></tr></table></figure>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> 这个是打勾的任务列表。</li>
+<li><input disabled="" type="checkbox"> 这个是没打勾的任务列表。</li>
+</ul>
+<h2 id="Next主题可用代码"><a href="#Next主题可用代码" class="headerlink" title="Next主题可用代码"></a>Next主题可用代码</h2><h3 id="按钮"><a href="#按钮" class="headerlink" title="按钮"></a>按钮</h3><p><a href="https://theme-next.js.org/docs/tag-plugins/button.html">官方教程链接</a></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% button url, text, icon [class], [title] %&#125;</span><br><span class="line">&#123;% btn url, text, icon [class], [title] %&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>url：链接地址</li>
+<li>text：按钮上的文本</li>
+<li>icon：Fontswesome图标名称，如果没有指定文本则为必填项。</li>
+<li>[class]：可选。Fontswesome图标种类（<code>fa-fw</code> <code>fa-lg</code> <code>fa-2x</code> <code>fa-3x</code> <code>fa-4x</code> <code>fa-5x</code>)</li>
+<li>[title]：可选。鼠标悬停在上面的提示。</li>
+</ul>
+<p>示例：  </p>
+<a class="btn" href="#" title="悬停显示"><i class="fa fa-home fa-lg"></i>按钮文本</a>
+
+<h3 id="图片墙"><a href="#图片墙" class="headerlink" title="图片墙"></a>图片墙</h3><p><a href="https://theme-next.js.org/docs/tag-plugins/group-pictures.html">官方教程链接</a></p>
+<h3 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h3><p><a href="https://theme-next.js.org/docs/tag-plugins/label.html">官方教程链接</a></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% label [class]@text %&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>[class]：可选。可填以下几个参数<mark class="label default">default</mark>
+<mark class="label primary">primary</mark>
+<mark class="label success">success</mark>
+<mark class="label info">info</mark>
+<mark class="label warning">warning</mark>
+<mark class="label danger">danger</mark></li>
+<li>text：显示的文本。</li>
+</ul>
+<h3 id="链接组"><a href="#链接组" class="headerlink" title="链接组"></a>链接组</h3><p><a href="https://theme-next.js.org/docs/tag-plugins/link-grid.html">官方教程链接</a></p>
+<h3 id="note"><a href="#note" class="headerlink" title="note"></a>note</h3><p><a href="https://theme-next.js.org/docs/tag-plugins/note.html">官方教程链接</a></p>
+<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% note %&#125;</span><br><span class="line">不定义样式</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure>
+<div class="note "><p>不定义样式</p>
+</div>
+
+<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% note default %&#125;</span><br><span class="line">defaul样式</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure>
+<div class="note default"><p>defaul样式</p>
+</div>
+
+<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% note primary %&#125;</span><br><span class="line">primary样式</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure>
+<div class="note primary"><p>primary样式</p>
+</div>
+
+<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% note info %&#125;</span><br><span class="line">info样式</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure>
+<div class="note info"><p>info样式</p>
+</div>
+
+<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% note success %&#125;</span><br><span class="line">success样式</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure>
+<div class="note success"><p>success样式</p>
+</div>
+
+<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% note warning %&#125;</span><br><span class="line">warning样式</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure>
+<div class="note warning"><p>warning样式</p>
+</div>
+
+<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% note danger %&#125;</span><br><span class="line">danger样式</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure>
+<div class="note danger"><p>danger样式</p>
+</div>
+
+<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% note info no-icon 这里是摘要 %&#125;</span><br><span class="line">折叠测试，info可以换成其他的，no-icon可以去掉。</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure>
+<details class="note info no-icon"><summary><p>这里是摘要</p>
+</summary>
+<p>折叠测试，info可以换成其他的，no-icon可以去掉。</p>
+
+</details>
+
+<h3 id="选项卡"><a href="#选项卡" class="headerlink" title="选项卡"></a>选项卡</h3><p><a href="https://theme-next.js.org/docs/tag-plugins/tabs.html">官方教程链接</a></p>
+]]></content>
+      <categories>
+        <category>Other</category>
+      </categories>
+      <tags>
+        <tag>MarkDown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>TODO</title>
+    <url>/2023-04/6c9b5b14/</url>
+    <content><![CDATA[<p>这是我的第一篇文章，也是我这个博客之后将要写的内容的整理。将会持续更新。</p>
+<span id="more"></span>
+<h2 id="文章分类"><a href="#文章分类" class="headerlink" title="文章分类"></a>文章分类</h2><h3 id="python"><a href="#python" class="headerlink" title="python"></a>python</h3><p>编写一些奇奇怪怪的python程序的过程或者心得之类的</p>
+<blockquote>
+<p>TODO  </p>
+<ul>
+<li><input disabled="" type="checkbox"> （可能）重构我的骰娘小程序</li>
+</ul>
+</blockquote>
+<h3 id="U盘"><a href="#U盘" class="headerlink" title="U盘"></a>U盘</h3><p>打造我的全能U盘的过程，我现在在用的U盘是闪迪Cz880 128G，只能说勉强够用。使用ventoy引导，分了两个分区，一个用来放PE的镜像和我的arch to go的虚拟硬盘给ventoy引导，另一个分区用来放portableapps程序和各种便携程序。之后应该会详细介绍的。</p>
+<blockquote>
+<p>TODO  </p>
+<ul>
+<li><input disabled="" type="checkbox"> 利用winpython打造便携编程环境（含VS Code和NodeJs)</li>
+<li><input disabled="" type="checkbox"> 我的U盘中便携软件介绍</li>
+</ul>
+</blockquote>
+<h3 id="Inky"><a href="#Inky" class="headerlink" title="Inky"></a>Inky</h3><p>用来放我自己使用Inky制作的各种文本游戏，但是我近期没有想写的计划。</p>
+<h3 id="Arch"><a href="#Arch" class="headerlink" title="Arch"></a>Arch</h3><p>一些使用Arch时的心得，目前依然没什么想写的计划。</p>
+<h3 id="Other"><a href="#Other" class="headerlink" title="Other"></a>Other</h3><p>记录一些杂七杂八的事情。</p>
+]]></content>
+      <categories>
+        <category>Other</category>
+      </categories>
+      <tags>
+        <tag>Other</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>blog美化记录</title>
+    <url>/2023-04/9b1c2aff/</url>
+    <content><![CDATA[<p>目前这个blog所美化的代码及总结。</p>
+<span id="more"></span>
+<blockquote>
+<p><strong>使用软件及其版本：</strong><br>node: 12.22.12<br>hexo: 5.4.2<br>hexo-cli: 4.3.0<br>git: 2.40.0.windows.1<br>hexo-theme-next</p>
+</blockquote>
+<h2 id="侧边栏添加播放器，且切换网页不会中断"><a href="#侧边栏添加播放器，且切换网页不会中断" class="headerlink" title="侧边栏添加播放器，且切换网页不会中断"></a>侧边栏添加播放器，且切换网页不会中断</h2><ol>
+<li>安装<a href="https://github.com/MoePlayer/hexo-tag-aplayer">hexo-tag-aplayer</a><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-tag-aplayer</span><br></pre></td></tr></table></figure></li>
+<li>在<code>_config.yml</code>中添加设置<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">aplayer:</span><br><span class="line">  meting: true</span><br><span class="line">  asset_inject: false</span><br></pre></td></tr></table></figure></li>
+<li>在博客目录下的<code>source/_data/header.njk</code>（没有文件夹或文件就新建）写入以下代码。<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 引用Aplayer和metingjs--&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">href</span>=<span class="string">&quot;https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css&quot;</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;my-aplayer&quot;</span></span></span><br><span class="line"><span class="tag"> <span class="attr">class</span>=<span class="string">&quot;aplayer&quot;</span></span></span><br><span class="line"><span class="tag"> <span class="attr">data-id</span>=<span class="string">&quot;8276622146&quot;</span> // <span class="attr">必须</span>，<span class="attr">歌曲id</span>、<span class="attr">播放列表id</span>、<span class="attr">相册id</span>、<span class="attr">搜索关键字</span></span></span><br><span class="line"><span class="tag"> <span class="attr">data-server</span>=<span class="string">&quot;netease&quot;</span> // <span class="attr">必须</span>，<span class="attr">音乐平台:</span> <span class="attr">netease</span>, <span class="attr">tencent</span>, <span class="attr">kugou</span>, <span class="attr">xiami</span>, <span class="attr">baidu</span></span></span><br><span class="line"><span class="tag"> <span class="attr">data-type</span>=<span class="string">&quot;playlist&quot;</span> // <span class="attr">必须</span>，<span class="attr">song</span>, <span class="attr">playlist</span>, <span class="attr">album</span>, <span class="attr">search</span>, <span class="attr">artist</span></span></span><br><span class="line"><span class="tag"> <span class="attr">data-fixed</span>=<span class="string">&quot;false&quot;</span> // <span class="attr">吸底模式可以固定播放器于页面底部</span>，<span class="attr">但是这里我要放在侧边栏中</span>，<span class="attr">所以是false</span></span></span><br><span class="line"><span class="tag"> <span class="attr">data-fixed</span>=<span class="string">&quot;true&quot;</span> // <span class="attr">开启固定模式</span></span></span><br><span class="line"><span class="tag"> <span class="attr">data-autoplay</span>=<span class="string">&quot;false&quot;</span> // <span class="attr">自动播放</span></span></span><br><span class="line"><span class="tag"> <span class="attr">data-order</span>=<span class="string">&quot;random&quot;</span> // <span class="attr">列表播放模式:list</span>,<span class="attr">random</span></span></span><br><span class="line"><span class="tag"> <span class="attr">data-volume</span>=<span class="string">&quot;0.8&quot;</span> </span></span><br><span class="line"><span class="tag"> <span class="attr">data-theme</span>=<span class="string">&quot;#be98aa&quot;</span></span></span><br><span class="line"><span class="tag"> <span class="attr">data-preload</span>=<span class="string">&quot;auto&quot;</span></span></span><br><span class="line"><span class="tag"> <span class="attr">data-mutex</span>=<span class="string">&quot;true&quot;</span></span></span><br><span class="line"><span class="tag"> <span class="attr">data-listfolded</span>=<span class="string">&quot;true&quot;</span></span></span><br><span class="line"><span class="tag"> &gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure></li>
+<li>修改<code>_config.next.yml</code>文件<ul>
+<li><code>custom_file_path</code>下的<code>header: source/_data/header.njk</code>取消注释。</li>
+<li>修改<code>pjax</code>项为true，如<code>pjax: true</code>。</li>
+</ul>
+</li>
+</ol>
+<h2 id="Next主题颜色样式美化"><a href="#Next主题颜色样式美化" class="headerlink" title="Next主题颜色样式美化"></a>Next主题颜色样式美化</h2><ol>
+<li>博客目录下新建<code>source/_data/header.njk</code>。</li>
+<li>修改<code>_config.next.yml</code>文件，<code>custom_file_path</code>下的<code>style: source/_data/styles.styl</code>和<code>variable: source/_data/variables.styl</code>取消注释。<ul>
+<li><code>styles.styl</code>文件是用来修改样式的。</li>
+<li><code>variables.styl</code>文件是用来修改颜色变量的。</li>
+</ul>
+</li>
+</ol>
+<h3 id="variables-styl"><a href="#variables-styl" class="headerlink" title="variables.styl"></a>variables.styl</h3><p>仅放出我的代码，因为具体的我也不太清楚。</p>
+<figure class="highlight styl"><table><tr><td class="code"><pre><span class="line"><span class="variable">$whitesmoke</span>   = <span class="built_in">hsl</span>(<span class="number">22</span>, <span class="number">40%</span>, <span class="number">96%</span>);</span><br><span class="line"><span class="variable">$gainsboro</span>    = <span class="built_in">hsl</span>(<span class="number">22</span>, <span class="number">38%</span>, <span class="number">93%</span>);</span><br><span class="line"><span class="variable">$grey</span>-lighter = <span class="built_in">hsl</span>(<span class="number">22</span>, <span class="number">36%</span>, <span class="number">87%</span>);</span><br><span class="line"><span class="variable">$grey</span>-light   = <span class="built_in">hsl</span>(<span class="number">22</span>, <span class="number">34%</span>, <span class="number">80%</span>);</span><br><span class="line"><span class="variable">$grey</span>         = <span class="built_in">hsl</span>(<span class="number">22</span>, <span class="number">32%</span>, <span class="number">73%</span>);</span><br><span class="line"><span class="variable">$grey</span>-dark    = <span class="built_in">hsl</span>(<span class="number">23</span>, <span class="number">30%</span>, <span class="number">60%</span>);</span><br><span class="line"><span class="variable">$grey</span>-dim     = <span class="built_in">hsl</span>(<span class="number">23</span>, <span class="number">28%</span>, <span class="number">40%</span>);</span><br><span class="line"><span class="variable">$black</span>-light  = <span class="built_in">hsl</span>(<span class="number">23</span>, <span class="number">26%</span>, <span class="number">33%</span>);</span><br><span class="line"><span class="variable">$black</span>-dim    = <span class="built_in">hsl</span>(<span class="number">23</span>, <span class="number">24%</span>, <span class="number">20%</span>);</span><br><span class="line"><span class="variable">$black</span>-deep   = <span class="built_in">hsl</span>(<span class="number">23</span>, <span class="number">22%</span>, <span class="number">13%</span>);</span><br><span class="line"><span class="variable">$red</span>          = <span class="number">#bf477f</span>;</span><br><span class="line"><span class="variable">$blue</span>-bright  = <span class="number">#fcd7e8</span>;</span><br><span class="line"><span class="variable">$blue</span>         = <span class="number">#dca0b2</span>;</span><br><span class="line"><span class="variable">$blue</span>-deep    = <span class="number">#be98aa</span>;</span><br><span class="line"><span class="variable">$orange</span>       = <span class="number">#465e65</span>;</span><br></pre></td></tr></table></figure>
+
+<h3 id="styles-styl"><a href="#styles-styl" class="headerlink" title="styles.styl"></a>styles.styl</h3><h4 id="设置背景"><a href="#设置背景" class="headerlink" title="设置背景"></a>设置背景</h4><figure class="highlight styl"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">body</span> &#123;</span><br><span class="line">    <span class="comment">/* 设置背景颜色 */</span></span><br><span class="line">    <span class="attribute">margin</span>: <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="number">#be98aa</span>;</span><br><span class="line">    <span class="attribute">background-image</span>: </span><br><span class="line">    <span class="built_in">radial-gradient</span>(closest-side, <span class="built_in">rgba</span>(<span class="number">170</span>, <span class="number">142</span>, <span class="number">245</span>, <span class="number">1</span>), <span class="built_in">rgba</span>(<span class="number">235</span>, <span class="number">105</span>, <span class="number">78</span>, <span class="number">0</span>)),</span><br><span class="line">    <span class="built_in">radial-gradient</span>(closest-side, <span class="built_in">rgba</span>(<span class="number">190</span>, <span class="number">151</span>, <span class="number">170</span>, <span class="number">1</span>), <span class="built_in">rgba</span>(<span class="number">243</span>, <span class="number">11</span>, <span class="number">164</span>, <span class="number">0</span>)),</span><br><span class="line">    <span class="built_in">radial-gradient</span>(closest-side, <span class="built_in">rgba</span>(<span class="number">254</span>, <span class="number">234</span>, <span class="number">131</span>, <span class="number">1</span>), <span class="built_in">rgba</span>(<span class="number">254</span>, <span class="number">234</span>, <span class="number">131</span>, <span class="number">0</span>)),</span><br><span class="line">    <span class="built_in">radial-gradient</span>(closest-side, <span class="built_in">rgba</span>(<span class="number">190</span>, <span class="number">151</span>, <span class="number">170</span>, <span class="number">1</span>), <span class="built_in">rgba</span>(<span class="number">170</span>, <span class="number">142</span>, <span class="number">245</span>, <span class="number">0</span>)),</span><br><span class="line">    <span class="built_in">radial-gradient</span>(closest-side, <span class="built_in">rgba</span>(<span class="number">248</span>, <span class="number">192</span>, <span class="number">147</span>, <span class="number">1</span>), <span class="built_in">rgba</span>(<span class="number">248</span>, <span class="number">192</span>, <span class="number">147</span>, <span class="number">0</span>));</span><br><span class="line">    <span class="attribute">background-size</span>: </span><br><span class="line">    <span class="number">130vmax</span> <span class="number">130vmax</span>,</span><br><span class="line">    <span class="number">80vmax</span> <span class="number">80vmax</span>,</span><br><span class="line">    <span class="number">90vmax</span> <span class="number">90vmax</span>,</span><br><span class="line">    <span class="number">110vmax</span> <span class="number">110vmax</span>,</span><br><span class="line">    <span class="number">90vmax</span> <span class="number">90vmax</span>;</span><br><span class="line">    <span class="attribute">background-position</span>:</span><br><span class="line">    -<span class="number">80vmax</span> -<span class="number">80vmax</span>,</span><br><span class="line">    <span class="number">60vmax</span> -<span class="number">30vmax</span>,</span><br><span class="line">    <span class="number">10vmax</span> <span class="number">10vmax</span>,</span><br><span class="line">    -<span class="number">30vmax</span> -<span class="number">10vmax</span>,</span><br><span class="line">    <span class="number">50vmax</span> <span class="number">50vmax</span>;</span><br><span class="line">    <span class="attribute">background-repeat</span>: no-repeat;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="设置各部分背景透明度"><a href="#设置各部分背景透明度" class="headerlink" title="设置各部分背景透明度"></a>设置各部分背景透明度</h4><figure class="highlight styl"><table><tr><td class="code"><pre><span class="line"><span class="comment">//文章内容透明度设置</span></span><br><span class="line"><span class="selector-class">.content</span><span class="selector-class">.wrap</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">0.6</span>;</span><br><span class="line">    &#125;</span><br><span class="line"><span class="selector-class">.post-block</span> &#123;</span><br><span class="line">    <span class="attribute">background</span>: <span class="built_in">rgba</span>(<span class="number">255</span>,<span class="number">255</span>,<span class="number">255</span>,<span class="number">0.5</span>) none repeat scroll <span class="meta">!important</span>;</span><br><span class="line">    &#125;</span><br><span class="line"><span class="comment">//菜单透明</span></span><br><span class="line">.header&#123;</span><br><span class="line">    <span class="attribute">background</span>: <span class="built_in">rgba</span>(<span class="number">255</span>,<span class="number">255</span>,<span class="number">255</span>,<span class="number">0.5</span>) none repeat scroll <span class="meta">!important</span>;</span><br><span class="line">    &#125;</span><br><span class="line"><span class="comment">//边栏透明</span></span><br><span class="line">.sidebar-inner&#123;</span><br><span class="line">    <span class="attribute">background</span>: <span class="built_in">rgba</span>(<span class="number">255</span>,<span class="number">255</span>,<span class="number">255</span>,<span class="number">0.5</span>) none repeat scroll <span class="meta">!important</span>;</span><br><span class="line">    &#125;</span><br><span class="line"><span class="comment">//评论区透明（不知道有没有用）</span></span><br><span class="line">.comments&#123;</span><br><span class="line">    <span class="attribute">background</span>: <span class="built_in">rgba</span>(<span class="number">255</span>,<span class="number">255</span>,<span class="number">255</span>,<span class="number">0.5</span>) none repeat scroll <span class="meta">!important</span>;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+<h4 id="文章标题样式"><a href="#文章标题样式" class="headerlink" title="文章标题样式"></a>文章标题样式</h4><figure class="highlight styl"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">h1</span></span><br><span class="line">    <span class="attribute">color</span> <span class="number">#3e3f4c</span></span><br><span class="line"><span class="selector-tag">h2</span></span><br><span class="line">    <span class="attribute">margin</span> .<span class="number">5em</span> auto</span><br><span class="line">    <span class="attribute">color</span> <span class="number">#3e3f4c</span></span><br><span class="line">    <span class="attribute">padding-bottom</span> <span class="number">5px</span></span><br><span class="line">    <span class="attribute">font-size</span> <span class="number">1.5rem</span></span><br><span class="line">    <span class="selector-pseudo">&amp;::before</span></span><br><span class="line">        <span class="attribute">color</span> <span class="number">#be98aa</span></span><br><span class="line">        <span class="attribute">content</span> <span class="string">&quot;\f70e  &quot;</span></span><br><span class="line">        <span class="attribute">width</span>: <span class="number">9px</span></span><br><span class="line">        <span class="attribute">height</span>: <span class="number">9px</span></span><br><span class="line">        <span class="attribute">font-family</span>: FontAwesome</span><br><span class="line"><span class="selector-tag">h3</span></span><br><span class="line">    <span class="attribute">margin</span> .<span class="number">5em</span> auto</span><br><span class="line">    <span class="attribute">color</span> <span class="number">#be98aa</span></span><br><span class="line">    <span class="attribute">background</span> <span class="number">#3e3f4c</span></span><br><span class="line">    <span class="attribute">border-left</span> <span class="number">4px</span> solid <span class="number">#be98aa</span></span><br><span class="line">    <span class="attribute">padding</span> .<span class="number">2em</span> .<span class="number">6em</span></span><br><span class="line">    <span class="attribute">box-shadow</span> <span class="number">1px</span> <span class="number">1px</span> <span class="number">1px</span> <span class="built_in">rgba</span>(<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>, .<span class="number">1</span>)</span><br><span class="line">    <span class="selector-pseudo">&amp;:hover</span> <span class="selector-tag">a</span></span><br><span class="line">        <span class="attribute">text-decoration</span> underline</span><br><span class="line">    <span class="selector-pseudo">&amp;::after</span></span><br><span class="line">        <span class="attribute">content</span> <span class="string">&quot; \f061&quot;</span></span><br><span class="line">        <span class="attribute">width</span>: <span class="number">9px</span></span><br><span class="line">        <span class="attribute">height</span>: <span class="number">9px</span></span><br><span class="line">        <span class="attribute">font-family</span>: FontAwesome</span><br><span class="line"><span class="selector-tag">h4</span>, <span class="selector-tag">h5</span>, <span class="selector-tag">h6</span></span><br><span class="line">    <span class="attribute">margin-top</span> <span class="number">20px</span></span><br><span class="line">    <span class="attribute">padding-bottom</span> <span class="number">5px</span></span><br><span class="line">    <span class="attribute">border-bottom</span> <span class="number">1px</span> solid <span class="number">#ddd</span></span><br></pre></td></tr></table></figure>
+<h4 id="blockquote"><a href="#blockquote" class="headerlink" title="blockquote"></a>blockquote</h4><figure class="highlight styl"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">blockquote</span></span><br><span class="line">    <span class="attribute">padding</span> .<span class="number">4em</span> <span class="number">20px</span></span><br><span class="line">    <span class="attribute">margin</span> .<span class="number">5em</span> auto</span><br><span class="line">    <span class="attribute">border-left</span> <span class="number">4px</span> solid <span class="number">#af888a</span></span><br><span class="line">    <span class="attribute">background</span> <span class="built_in">rgba</span>(<span class="number">241</span>, <span class="number">229</span>, <span class="number">222</span>,<span class="number">1</span>)</span><br><span class="line">    <span class="attribute">box-shadow</span> <span class="number">1px</span> <span class="number">1px</span> <span class="number">1px</span> <span class="built_in">rgba</span>(<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>, .<span class="number">1</span>)</span><br><span class="line">    <span class="selector-tag">p</span></span><br><span class="line">        <span class="attribute">margin</span> .<span class="number">4em</span> auto</span><br><span class="line">    <span class="selector-tag">blockquote</span></span><br><span class="line">        <span class="attribute">border-left</span> none</span><br><span class="line">    <span class="selector-tag">footer</span></span><br><span class="line">        <span class="attribute">font-style</span> italic</span><br><span class="line">        <span class="selector-tag">cite</span><span class="selector-pseudo">::before</span></span><br><span class="line">            <span class="attribute">content</span> <span class="string">&quot;—&quot;</span></span><br><span class="line">            <span class="attribute">padding</span> <span class="number">0</span> .<span class="number">3em</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="按钮设定-就改了一下颜色"><a href="#按钮设定-就改了一下颜色" class="headerlink" title="按钮设定(就改了一下颜色)"></a>按钮设定(就改了一下颜色)</h4><figure class="highlight styl"><table><tr><td class="code"><pre><span class="line"><span class="comment">//按钮 .btn</span></span><br><span class="line"><span class="selector-class">.btn</span></span><br><span class="line">  <span class="attribute">background</span> <span class="built_in">rgba</span>(<span class="number">255</span>, <span class="number">255</span>,<span class="number">255</span>,<span class="number">0</span>)</span><br><span class="line">  <span class="attribute">border</span> <span class="number">2px</span> solid <span class="number">#3e3f4c</span></span><br><span class="line">  <span class="attribute">color</span> <span class="number">#3e3f4c</span></span><br><span class="line">  <span class="selector-pseudo">&amp;:hover</span></span><br><span class="line">    <span class="attribute">background</span> <span class="number">#3e3f4c</span></span><br><span class="line">    <span class="attribute">border-color</span> <span class="number">#be98aa</span></span><br><span class="line">    <span class="attribute">color</span> <span class="number">#be98aa</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="其他的一些颜色设置"><a href="#其他的一些颜色设置" class="headerlink" title="其他的一些颜色设置"></a>其他的一些颜色设置</h4><figure class="highlight styl"><table><tr><td class="code"><pre><span class="line"><span class="comment">//页脚字体颜色</span></span><br><span class="line">.footer&#123;</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#000</span></span><br><span class="line">    &#125;</span><br><span class="line"><span class="comment">//右上角的标题字体颜色</span></span><br><span class="line">.site-title&#123;</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#be98aa</span></span><br><span class="line">    &#125;</span><br><span class="line">.site-subtitle&#123;</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#be98aa</span></span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Other</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Next</tag>
+      </tags>
+  </entry>
+</search>
