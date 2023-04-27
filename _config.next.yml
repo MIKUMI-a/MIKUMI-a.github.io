@@ -442,7 +442,7 @@ github_banner:
 #Arial |宋体|宋体| Helvetica| Times New Roman | Courier New |宋体| Verdana |乔治亚州|帕拉蒂诺|加拉蒙德| Comic Sans MS | Trebuchet MS
 # ---------------------------------------------------------------
 font:
-  enable: false
+  enable: true
 
   # Uri of fonts host, e.g. https://fonts.googleapis.com (Default).
   host:
@@ -455,30 +455,30 @@ font:
   # Global font settings used for all elements inside <body>.
   global:
     external: true
-    family: Verdana
+    family: HarmonyOS Sans SC
     size:
 
   # Font settings for site title (.site-title).
   title:
-    external: true
+    external: false
     family:
     size:
 
   # Font settings for headlines (<h1> to <h6>).
   headings:
     external: true
-    family:
+    family: 得意黑
     size:
 
   # Font settings for posts (.post-body).
   posts:
-    external: true
+    external: false
     family:
 
   # Font settings for <code> and code blocks.
   codes:
     external: true
-    family:
+    family: Fira Code
 
 
 # ---------------------------------------------------------------
@@ -535,7 +535,7 @@ tabs:
   # Make the nav bar of tabs with long content stick to the top.
   sticky: false
   transition:
-    tabs: false
+    tabs: true
     labels: true
 
 # PDF tag
