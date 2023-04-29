@@ -951,13 +951,13 @@ waline:
   enable: true
 
   # Waline server address url, you should set this to your own link
-  serverURL: https://mikumi-blog-waline.netlify.app/.netlify/functions/comment
+  serverURL: https://mikumi-blog-source.netlify.app/.netlify/functions/comment
 
   # Waline library CDN url, you can set this to your preferred CDN
   # libUrl: https://unpkg.com/@waline/client@v2/dist/waline.js
 
   # Waline CSS styles CDN url, you can set this to your preferred CDN
-  cssUrl: https://unpkg.com/@waline/client@v2/dist/waline.css # source/css/waline.css
+  cssUrl: https://mikumi-blog-source.netlify.app/css/waline.css
 
   # Custom locales
   # locale:
