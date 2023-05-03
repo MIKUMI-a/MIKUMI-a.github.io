@@ -28,7 +28,7 @@ custom_file_path:
   #sidebar: source/_data/sidebar.njk
   #postMeta: source/_data/post-meta.njk
   #postBodyEnd: source/_data/post-body-end.njk
-  #footer: source/_data/footer.njk
+  footer: source/_data/footer.njk
   #bodyEnd: source/_data/body-end.njk
   variable: source/_data/variables.styl
   #mixin: source/_data/mixins.styl
@@ -116,7 +116,6 @@ menu:
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
   about: /about/ || fa fa-user
-  这里是后台哦~: /admin/ || fa fa-heart
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
@@ -460,8 +459,8 @@ font:
 
   # Font settings for site title (.site-title).
   title:
-    external: false
-    family:
+    external: true
+    family: Comic Sans MS
     size:
 
   # Font settings for headlines (<h1> to <h6>).
@@ -954,7 +953,7 @@ waline:
   serverURL: https://mikumi-blog-source.netlify.app/.netlify/functions/comment
 
   # Waline library CDN url, you can set this to your preferred CDN
-  # libUrl: https://unpkg.com/@waline/client@v2/dist/waline.js
+  libUrl: https://mikumi-blog-source.netlify.app/js/waline.js
 
   # Waline CSS styles CDN url, you can set this to your preferred CDN
   cssUrl: https://mikumi-blog-source.netlify.app/css/waline.css
