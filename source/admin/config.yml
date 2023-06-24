@@ -21,15 +21,16 @@ collections:      # https://www.netlifycms.org/docs/configuration-options/#colle
     folder: "source/_posts" # 存储文件的文件夹的路径。
     create: true # 允许用户在这个集合中创建新的文件。
     fields: # 每份文件的字段，通常是前面的内容。
-      - {label: "文章排序", name: "top", widget: "number", required: false, hint: "数值越大，该文章越靠前"}
       - {label: "标题", name: "title", widget: "string" }
       - {label: "发布日期", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss", dateFormat: "YYYY-MM-DD", timeFormat: "HH:mm:ss", required: false}
-      - {label: "更新日期", name: "updated", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss", dateFormat: "YYYY-MM-DD", timeFormat: "HH:mm:ss", required: false}
+      - {label: "作者", name: "author", widget: "string" }
+      - {label: "文章顶置", name: "top", widget: "boolean", required: false}
+      - {label: "显示侧边栏", name: "sidebar", widget: "boolean", required: false}
+      - {label: "显示目录", name: "toc", widget: "boolean", required: false}
       - {label: "标签", name: "tags", widget: "list", required: false}
       - {label: "分类", name: "categories", widget: "list", required: false}
-      - {label: "关键词", name: "keywords", widget: "list", required: false}
-      - {label: "永久链接", name: "permalink", widget: "string", required: false}
-      - {label: "评论", name: "comments", widget: "boolean", default: true, required: false}
+      - {label: "显示评论", name: "comments", widget: "boolean", default: true, required: false}
+      - {label: "概述", name: "description", widget: "text"}
       - {label: "内容", name: "body", widget: "markdown", required: false}
 
   - name: "pages"
