@@ -4,6 +4,10 @@ backend:
   branch: main # 要更新的分支(可选；默认为主分支)
   squash_merges: true # 合并提交
 
+backend:
+  name: test-repo
+  branch: test
+
 local_backend: true
 
 # This line should *not* be indented
