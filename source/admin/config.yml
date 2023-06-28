@@ -41,7 +41,7 @@ collections:      # https://www.netlifycms.org/docs/configuration-options/#colle
       - {label: "显示目录", name: "toc", widget: "boolean", default: true}
       - {label: "标签", name: "tags", widget: "list", required: false}
       - {label: "分类", name: "categories", widget: "select", multiple: true, options: ['U盘', 'Inky', 'Arch', 'Other', '安科'], default: ['Other'], max: 1}
-      - {label: "显示评论", name: "comments", widget: "boolean", default: true, default: true}
+      - {label: "显示评论", name: "comments", widget: "boolean", default: true}
       - {label: "永久链接", name: "abbrlink", widget: "string", required: false}
       - {label: "概述", name: "description", widget: "text", required: false}
       - {label: "内容", name: "body", widget: "markdown", required: false}
@@ -68,7 +68,7 @@ collections:      # https://www.netlifycms.org/docs/configuration-options/#colle
       - {label: "显示目录", name: "toc", widget: "boolean", default: true}
       - {label: "标签", name: "tags", widget: "list", required: false}
       - {label: "分类", name: "categories", widget: "select", multiple: true, options: ['U盘', 'Inky', 'Arch', 'Other', '安科'], default: ['Other'], max: 1}
-      - {label: "显示评论", name: "comments", widget: "boolean", default: true, default: true}
+      - {label: "显示评论", name: "comments", widget: "boolean", default: true}
       - {label: "永久链接", name: "abbrlink", widget: "string", required: false}
       - {label: "概述", name: "description", widget: "text", required: false}
       - {label: "内容", name: "body", widget: "markdown", required: false}
