@@ -897,7 +897,7 @@ chat:
 chatra:
   enable: false
   async: true
-  id: # Visit Dashboard to get your ChatraID
+  id: vvym9sh9bq2ZpJzYt # Visit Dashboard to get your ChatraID
   #embed: # Unfinished experimental feature for developers. See: https://chatra.com/help/api/#injectto
 
 # Tidio is a powerful, all-in-one customer service tool.
