@@ -12,19 +12,17 @@ categories:
 comments: false
 description: 包含NodeJs/Python/Git开发环境，还有便携软件网站的分享。
 ---
-> 便携软件网站（以下的软件我没给地址的都可以在这些网站中找到，部分需要科学上网）：
+便携软件网站（以下的软件我没给地址的都可以在这些网站中找到，部分需要科学上网）：
 
-> - [PortableApp](https://portableappk.com/)
+- [PortableApp](https://portableappk.com/)
+- [PortableAppZ](http://portableappz.blogspot.com/)
+- [荷花绿色便携软件](https://www.hehuasoft.com/)
+- [jooseng6的微博](https://weibo.com/2787439924)
+- 
+[PortableAppK（部分需要付费才能下）](https://portableappk.com/)
 
-> - [PortableAppZ](http://portableappz.blogspot.com/)
 
-> - [荷花绿色便携软件](https://www.hehuasoft.com/)
-
-> - [jooseng6的微博](https://weibo.com/2787439924)
-
-> - [PortableAppK（部分需要付费才能下）](https://portableappk.com/)
-
-## 7-Zip
+## ## 7-Zip
 
 不必多说，虽然大部分电脑应该都会有解压软件，但我爹就不喜欢装，反正不大就留着了。
 
