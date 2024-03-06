@@ -6,7 +6,8 @@ top: false
 sidebar: true
 toc: true
 tags:
-  - U盘，便携软件
+  - U盘
+  - 便携软件
 categories:
   - U盘
 comments: false
