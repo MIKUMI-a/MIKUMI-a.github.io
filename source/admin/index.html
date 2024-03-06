@@ -13,6 +13,12 @@
     <script>
       window.CMS.init();
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/netlify-cms-widget-simplemde/dist/main.min.js"></script>
+    <!-- OR use unpkg CDN -->
+    <!-- <script src="https://www.unpkg.com/netlify-cms-widget-simplemde"></script> -->
+    <script>
+      CMS.registerWidget("simplemde", SimpleMDEControl, SimpleMDEPreview);
+    </script>
     <script>
       if (window.netlifyIdentity) {
         window.netlifyIdentity.on('init', user => {

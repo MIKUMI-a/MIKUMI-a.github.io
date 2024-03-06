@@ -1,6 +1,5 @@
 ---
 title: 我U盘中使用的便携软件的简要介绍
-date: 2024-03-06 10:28:40
 author: MIKUMI
 top: false
 sidebar: true
@@ -12,6 +11,8 @@ categories:
   - U盘
 comments: false
 description: 包含NodeJs/Python/Git开发环境，还有便携软件网站的分享。
+abbrlink: daacd69
+date: 2024-03-06 10:28:40
 ---
 便携软件网站（以下的软件我没给地址的都可以在这些网站中找到，部分需要科学上网）：
 

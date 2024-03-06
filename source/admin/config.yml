@@ -44,7 +44,7 @@ collections:      # https://www.netlifycms.org/docs/configuration-options/#colle
       - {label: "显示评论", name: "comments", widget: "boolean", default: true}
       - {label: "永久链接", name: "abbrlink", widget: "string", required: false}
       - {label: "概述", name: "description", widget: "text", required: false}
-      - {label: "内容", name: "body", widget: "markdown", required: false}
+      - {label: "内容", name: "body", widget: "simplemde", required: false}
 
   - name: "pages"
     label: "Pages"
