@@ -18,9 +18,7 @@ description: 包含NodeJs/Python/Git开发环境，还有便携软件网站的�
 - [PortableAppZ](http://portableappz.blogspot.com/)
 - [荷花绿色便携软件](https://www.hehuasoft.com/)
 - [jooseng6的微博](https://weibo.com/2787439924)
-- 
-[PortableAppK（部分需要付费才能下）](https://portableappk.com/)
-
+- [PortableAppK（部分需要付费才能下）](https://portableappk.com/)
 
 ## ## 7-Zip
 
@@ -72,7 +70,7 @@ description: 包含NodeJs/Python/Git开发环境，还有便携软件网站的�
 
 用来热插拔U盘，因为U盘内开的软件多了就很难弹出U盘了，在写了个bat文件CLaunch关闭时运行就可以顺便弹出U盘了。[官网](http://mt-naka.com/hotswap/index_enu.htm#download)
 
-> bat文件内的代码：HotSwap! %~d0
+> bat文件内的代码：`HotSwap! %~d0`
 
 ## IrfanView
 
@@ -91,7 +89,6 @@ description: 包含NodeJs/Python/Git开发环境，还有便携软件网站的�
 在PE中更改默认记事本的bat文件代码（放在在EXE文件同级目录）：
 
 ```
-
 reg add "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /v "Debugger" /t REG_SZ /d "\"%~dp0Notepad2.exe\" /z" /f
 
 ```
@@ -192,31 +189,17 @@ reg add "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution 
 @echo off
 
 set "USERPROFILE=%~d0\Documents"
-
 set "PYTHON_PATH=%~dp0python"
-
 set "NODE_PATH=%~dp0node"
-
 set "GIT_PATH=%~dp0PortableGit"
 
 set "PATH=%PYTHON_PATH%;%PYTHON_PATH%\Scripts;%PYTHON_PATH%\DLLs;%NODE_PATH%;%NODE_PATH%\node_global;%GIT_PATH%\bin;%PATH%"
 
-
-
-
-
 call npm config set prefix "%NODE_PATH%\node_global"
-
 call npm config set cache  "%NODE_PATH%\node_cache"
-
 call npm config set registry https://registry.npm.taobao.org
 
-
-
-
-
 cd %USERPROFILE%
-
 %1
 
 ```
@@ -228,13 +211,9 @@ cd %USERPROFILE%
 也可以这么使用，例如我的VSCode所用的Bat（前提是不要改变最后的`%1`)：
 
 ```
-
 @echo off
-
 set "APPS=%~d0\PortableApps"
-
 %APPS%\CommonFiles\evi.bat "%APPS%\VSCode\Code.exe"
-
 ```
 
 ## 尾言
