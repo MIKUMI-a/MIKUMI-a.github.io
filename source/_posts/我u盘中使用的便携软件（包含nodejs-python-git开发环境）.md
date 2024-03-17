@@ -22,7 +22,7 @@ date: 2024-03-06 10:28:40
 - [jooseng6的微博](https://weibo.com/2787439924)
 - [PortableAppK（部分需要付费才能下）](https://portableappk.com/)
 
-## ## 7-Zip
+## 7-Zip
 
 不必多说，虽然大部分电脑应该都会有解压软件，但我爹就不喜欢装，反正不大就留着了。
 
