@@ -1,14 +1,19 @@
 ---
 title: TODO
+date: 2023-04-02 14:25:32
 author: MIKUMI
 original: true
-top: True
+top: true
 category:
   - Other
+sidebar: true
+toc: true
 tags:
   - Other
+categories:
+  - Other
+comments: true
 abbrlink: 6c9b5b14
-date: 2023-04-02 14:25:32
 ---
 这是我的第一篇文章，也是我这个博客之后将要写的内容的整理。将会持续更新。
 
@@ -22,8 +27,8 @@ date: 2023-04-02 14:25:32
 ### U盘
 打造我的全能U盘的过程，我现在在用的U盘是闪迪Cz880 128G，只能说勉强够用。使用ventoy引导，分了两个分区，一个用来放PE的镜像和我的arch to go的虚拟硬盘给ventoy引导，另一个分区用来放portableapps程序和各种便携程序。之后应该会详细介绍的。
 >TODO  
->* [ ] 利用winpython打造便携编程环境（含VS Code和NodeJs)
->* [ ] 我的U盘中便携软件介绍
+>* [X] 利用winpython打造便携编程环境（含VS Code和NodeJs)[注：winpython因为PE中不能使用被我弃用了，改用了其他方法]
+>* [X] 我的U盘中便携软件介绍
 
 ### Inky
 用来放我自己使用Inky制作的各种文本游戏，但是我近期没有想写的计划。
