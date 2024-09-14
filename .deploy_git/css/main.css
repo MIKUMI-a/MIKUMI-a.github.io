@@ -8,8 +8,8 @@
   --link-hover-color: #222;
   --brand-color: #fff;
   --brand-hover-color: #fff;
-  --table-row-odd-bg-color: #f9f9f9;
-  --table-row-hover-bg-color: #f5f5f5;
+  --table-row-odd-bg-color: rgba(0,0,0,0);
+  --table-row-hover-bg-color: #e3ebd2;
   --menu-item-bg-color: #f5f5f5;
   --theme-color: #3e3f4c;
   --btn-default-bg: #fff;
@@ -184,7 +184,7 @@ body {
   background: var(--body-bg-color);
   box-sizing: border-box;
   color: var(--text-color);
-  font-family: Verdana, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: HarmonyOS Sans SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-size: 1em;
   line-height: 2;
   min-height: 100%;
@@ -197,7 +197,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Verdana, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: 得意黑, HarmonyOS Sans SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-weight: bold;
   line-height: 1.5;
   margin: 30px 0 15px;
@@ -290,8 +290,8 @@ td {
 }
 th,
 td {
-  border: 1px solid #ddd;
-  border-bottom: 3px solid #ddd;
+  border: 1px solid #44342a;
+  border-bottom: 3px solid #44342a;
 }
 th {
   font-weight: 700;
@@ -434,7 +434,7 @@ pre figcaption a:hover {
 }
 pre,
 code {
-  font-family: consolas, Menlo, monospace, 'PingFang SC', 'Microsoft YaHei';
+  font-family: Fira Code, consolas, Menlo, monospace, 'PingFang SC', 'Microsoft YaHei';
 }
 code {
   border-radius: 3px;
@@ -802,6 +802,7 @@ pre code {
   border-top: 3px solid transparent;
   flex-grow: 1;
   list-style-type: none;
+  transition: all 0.2s ease-out;
 }
 @media (max-width: 413px) {
   .post-body .tabs ul.nav-tabs li.tab,
@@ -834,17 +835,17 @@ pre code {
 .post-body .tabs ul.nav-tabs li.tab.active,
 .tabs-comment ul.nav-tabs li.tab.active {
   border-bottom-color: transparent;
-  border-left-color: #ddd;
-  border-right-color: #ddd;
+  border-left-color: #44342a;
+  border-right-color: #44342a;
   border-top-color: #465e65;
 }
 @media (max-width: 413px) {
   .post-body .tabs ul.nav-tabs li.tab.active,
   .tabs-comment ul.nav-tabs li.tab.active {
-    border-bottom-color: #ddd;
+    border-bottom-color: #44342a;
     border-left-color: #465e65;
-    border-right-color: #ddd;
-    border-top-color: #ddd;
+    border-right-color: #44342a;
+    border-top-color: #44342a;
   }
 }
 .post-body .tabs ul.nav-tabs li.tab.active a,
@@ -853,7 +854,7 @@ pre code {
 }
 .post-body .tabs .tab-content,
 .tabs-comment .tab-content {
-  border: 1px solid #ddd;
+  border: 1px solid #44342a;
   border-radius: 0 0 0 0;
   border-top-color: transparent;
 }
@@ -861,7 +862,7 @@ pre code {
   .post-body .tabs .tab-content,
   .tabs-comment .tab-content {
     border-radius: 0;
-    border-top-color: #ddd;
+    border-top-color: #44342a;
   }
 }
 .post-body .tabs .tab-content .tab-pane,
@@ -1009,7 +1010,7 @@ pre code {
   color: var(--brand-hover-color);
 }
 .site-title {
-  font-family: Verdana, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Comic Sans MS, HarmonyOS Sans SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-size: 1.375em;
   font-weight: normal;
   line-height: 1.5;
@@ -1715,7 +1716,7 @@ pre code {
   width: 4px;
 }
 .post-body {
-  font-family: Verdana, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: HarmonyOS Sans SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   overflow-wrap: break-word;
 }
 @media (min-width: 1200px) {
@@ -1902,7 +1903,7 @@ pre code {
 }
 .posts-expand .post-meta-container {
   color: #b8927a;
-  font-family: Verdana, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: HarmonyOS Sans SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-size: 0.75em;
   margin-top: 3px;
 }
@@ -2229,14 +2230,6 @@ ul.breadcrumb li:last-child {
 .tag-cloud-10 {
   border-bottom-color: #111;
   color: #111;
-}
-.gt-header a,
-.gt-comments a,
-.gt-popup a {
-  border-bottom: 0;
-}
-.gt-container .gt-popup .gt-action.is--active::before {
-  top: 0.7em;
 }
 .search-active {
   overflow: hidden;
@@ -2687,6 +2680,51 @@ header.header {
     padding: 10px 12px;
   }
 }
+@font-face {
+  font-family: "得意黑";
+  src: url("/font/SmileySans-Oblique.ttf.woff2");
+}
+@font-face {
+  font-family: "HarmonyOS Sans SC";
+  src: url("/font/HarmonyOS_Sans_SC_Regular.ttf");
+}
+@font-face {
+  font-family: 'Fira Code';
+  src: url("https://mikumi-blog-source.netlify.app/font/FiraCode-Light.woff2") format('woff2'), url("https://mikumi-blog-source.netlify.app/font/FiraCode-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fira Code';
+  src: url("https://mikumi-blog-source.netlify.app/font/FiraCode-Regular.woff2") format('woff2'), url("https://mikumi-blog-source.netlify.app/font/FiraCode-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fira Code';
+  src: url("https://mikumi-blog-source.netlify.app/font/FiraCode-Medium.woff2") format('woff2'), url("https://mikumi-blog-source.netlify.app/font/FiraCode-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fira Code';
+  src: url("https://mikumi-blog-source.netlify.app/font/FiraCode-SemiBold.woff2") format('woff2'), url("https://mikumi-blog-source.netlify.app/font/FiraCode-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fira Code';
+  src: url("https://mikumi-blog-source.netlify.app/font/FiraCode-Bold.woff2") format('woff2'), url("https://mikumi-blog-source.netlify.app/font/FiraCode-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fira Code VF';
+  src: url("https://mikumi-blog-source.netlify.app/font/FiraCode-VF.woff2") format('woff2-variations'), url("https://mikumi-blog-source.netlify.app/font/FiraCode-VF.woff") format('woff-variations');
+/* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
+  font-weight: 300 700;
+  font-style: normal;
+}
 body {
 /* 设置背景颜色 */
   margin: 0;
@@ -2774,6 +2812,13 @@ h5::before {
   height: 9px;
   font-family: FontAwesome;
 }
+h6::before {
+  color: #be98aa;
+  content: "\f004  ";
+  width: 9px;
+  height: 9px;
+  font-family: FontAwesome;
+}
 blockquote {
   padding: 0.4em 20px;
   margin: 0.5em auto;
@@ -2803,4 +2848,18 @@ blockquote footer cite::before {
   background: #3e3f4c;
   border-color: #be98aa;
   color: #be98aa;
+}
+.post-body .tabs ul.nav-tabs,
+.tabs-comment ul.nav-tabs {
+  background: rgba(190,152,170,0.7);
+}
+.post-body .tabs ul.nav-tabs li.tab,
+.tabs-comment ul.nav-tabs li.tab {
+  border-bottom: 1px solid #3e3f4c;
+  border-left: 1px solid #3e3f4c;
+  border-right: 1px solid #3e3f4c;
+  border-top: 3px solid #3e3f4c;
+}
+li.tab.active {
+  background: rgba(241,229,222,0.7);
 }

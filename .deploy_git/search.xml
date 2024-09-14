@@ -1,6 +1,571 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>TODO</title>
+    <url>/2023-04/6c9b5b14/</url>
+    <content><![CDATA[<p>这是我的第一篇文章，也是我这个博客之后将要写的内容的整理。将会持续更新。</p>
+<span id="more"></span>
+<h2 id="文章分类"><a href="#文章分类" class="headerlink" title="文章分类"></a>文章分类</h2><h3 id="python"><a href="#python" class="headerlink" title="python"></a>python</h3><p>编写一些奇奇怪怪的python程序的过程或者心得之类的</p>
+<blockquote>
+<p>TODO  </p>
+<ul>
+<li><input disabled="" type="checkbox"> （可能）重构我的骰娘小程序</li>
+</ul>
+</blockquote>
+<h3 id="U盘"><a href="#U盘" class="headerlink" title="U盘"></a>U盘</h3><p>打造我的全能U盘的过程，我现在在用的U盘是闪迪Cz880 128G，只能说勉强够用。使用ventoy引导，分了两个分区，一个用来放PE的镜像和我的arch to go的虚拟硬盘给ventoy引导，另一个分区用来放portableapps程序和各种便携程序。之后应该会详细介绍的。</p>
+<blockquote>
+<p>TODO  </p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> 利用winpython打造便携编程环境（含VS Code和NodeJs)[注：winpython因为PE中不能使用被我弃用了，改用了其他方法]</li>
+<li><input checked="" disabled="" type="checkbox"> 我的U盘中便携软件介绍</li>
+</ul>
+</blockquote>
+<h3 id="Inky"><a href="#Inky" class="headerlink" title="Inky"></a>Inky</h3><p>用来放我自己使用Inky制作的各种文本游戏，但是我近期没有想写的计划。</p>
+<h3 id="Arch"><a href="#Arch" class="headerlink" title="Arch"></a>Arch</h3><p>一些使用Arch时的心得，目前依然没什么想写的计划。</p>
+<h3 id="Other"><a href="#Other" class="headerlink" title="Other"></a>Other</h3><p>记录一些杂七杂八的事情。</p>
+]]></content>
+      <categories>
+        <category>Other</category>
+      </categories>
+      <tags>
+        <tag>Other</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我U盘中使用的便携软件的简要介绍</title>
+    <url>/2024-03/daacd69/</url>
+    <content><![CDATA[<p>便携软件网站（以下的软件我没给地址的都可以在这些网站中找到，部分需要科学上网）：</p>
+<ul>
+<li><a href="https://portableappk.com/">PortableApp</a></li>
+<li><a href="http://portableappz.blogspot.com/">PortableAppZ</a></li>
+<li><a href="https://www.hehuasoft.com/">荷花绿色便携软件</a></li>
+<li><a href="https://weibo.com/2787439924">jooseng6的微博</a></li>
+<li><a href="https://portableappk.com/">PortableAppK（部分需要付费才能下）</a></li>
+</ul>
+<h2 id="7-Zip"><a href="#7-Zip" class="headerlink" title="7-Zip"></a>7-Zip</h2><p>不必多说，虽然大部分电脑应该都会有解压软件，但我爹就不喜欢装，反正不大就留着了。</p>
+<h2 id="Audacious"><a href="#Audacious" class="headerlink" title="Audacious"></a>Audacious</h2><p>听歌软件，不过我很少听，追求能响就行，它支持相对路径，挺好用的。</p>
+<h2 id="百度网盘"><a href="#百度网盘" class="headerlink" title="百度网盘"></a>百度网盘</h2><p>我也不想留，但是实在是用它的地方太多了。</p>
+<h2 id="百分浏览器"><a href="#百分浏览器" class="headerlink" title="百分浏览器"></a>百分浏览器</h2><p>用过很多支持便携的浏览器，它是最流畅的，而且支持谷歌插件，满足我的使用需求了。<a href="https://www.centbrowser.cn/history.html">在这里下载便携版</a></p>
+<h2 id="Clash-for-Windows"><a href="#Clash-for-Windows" class="headerlink" title="Clash for Windows"></a>Clash for Windows</h2><p>停止更新了，但是我离不开它，一直在用旧版的。</p>
+<blockquote>
+<p>变成便携版的方式：在同级目录内新建data文件夹。</p>
+</blockquote>
+<h2 id="CLaunch"><a href="#CLaunch" class="headerlink" title="CLaunch"></a>CLaunch</h2><p>自带便携版，支持相对路径，功能很多，虽然我更习惯用UTools，但UTools完全不能便携，这个还是挺好用的。<a href="https://hp.vector.co.jp/authors/VA018351/en/claunch.html">下载地址（下Zip文件）</a></p>
+<h2 id="DiskGenius"><a href="#DiskGenius" class="headerlink" title="DiskGenius"></a>DiskGenius</h2><p>磁盘管理软件，我也不知道它便不便携，但是就是得用它，功能全面，装机必备。<a href="https://www.diskgenius.cn/">官网</a></p>
+<h2 id="Dism"><a href="#Dism" class="headerlink" title="Dism++"></a>Dism++</h2><p>超好用的系统优化工具，装机必备。<a href="https://github.com/Chuyu-Team/Dism-Multi-language/releases">下载地址</a></p>
+<h2 id="天翼云盘"><a href="#天翼云盘" class="headerlink" title="天翼云盘"></a>天翼云盘</h2><p>留着备用，毕竟百度网盘真的太慢了。</p>
+<h2 id="eDiary"><a href="#eDiary" class="headerlink" title="eDiary"></a>eDiary</h2><p>笔记软件，同步功能比不上Joplin，界面也有点儿古早，但是体积小巧，如果没有太大需求可以用它。<a href="http://www.haoxg.net/ediary/download_windows.html">下载地址</a></p>
+<h2 id="Everything"><a href="#Everything" class="headerlink" title="Everything"></a>Everything</h2><p>这就是神，不必多解释。除了界面真的很朴素之外，没有缺点。</p>
+<h2 id="HotSwap"><a href="#HotSwap" class="headerlink" title="HotSwap!"></a>HotSwap!</h2><p>用来热插拔U盘，因为U盘内开的软件多了就很难弹出U盘了，在写了个bat文件CLaunch关闭时运行就可以顺便弹出U盘了。<a href="http://mt-naka.com/hotswap/index_enu.htm#download">官网</a></p>
+<blockquote>
+<p>bat文件内的代码：<code>HotSwap! %~d0</code></p>
+</blockquote>
+<h2 id="IrfanView"><a href="#IrfanView" class="headerlink" title="IrfanView"></a>IrfanView</h2><p>图片查看工具，总有用得上的时候。</p>
+<h2 id="Joplin"><a href="#Joplin" class="headerlink" title="Joplin"></a>Joplin</h2><p>笔记工具，官方自带便携版（下载地址在文档里有点儿隐蔽）在文档里，才刚刚用，同步功能超好用，虽然我更喜欢notion的那种看板，但是这个感觉其实也不错。（反正看板我做完也是吃灰的）<a href="https://joplinapp.org/help/install">便携版下载地址</a></p>
+<h2 id="Notepad2"><a href="#Notepad2" class="headerlink" title="Notepad2"></a>Notepad2</h2><p>代替系统自带的记事本，小巧好用，打开超快速。</p>
+<p><a href="https://www.flos-freeware.ch/notepad2.html">下载地址</a></p>
+<p>在PE中更改默认记事本的bat文件代码（放在在EXE文件同级目录）：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">reg add &quot;HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe&quot; /v &quot;Debugger&quot; /t REG_SZ /d &quot;\&quot;%~dp0Notepad2.exe\&quot; /z&quot; /f</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="万彩工具箱"><a href="#万彩工具箱" class="headerlink" title="万彩工具箱"></a>万彩工具箱</h2><p>办公必备，功能很多，包含PDF格式转换等功能。</p>
+<h2 id="Photoshop-CC"><a href="#Photoshop-CC" class="headerlink" title="Photoshop CC"></a>Photoshop CC</h2><p>我真的离不开PS，改图片大小都想用它，但是我忘记这个便携版是从哪儿下的了。</p>
+<h2 id="PicGo"><a href="#PicGo" class="headerlink" title="PicGo"></a>PicGo</h2><p>好用的图床工具，写博客必备（虽然我真的不怎么写）。</p>
+<h2 id="PortableApps"><a href="#PortableApps" class="headerlink" title="PortableApps"></a>PortableApps</h2><p>便携软件管理工具，从<a href="PortableApps.com">PortableApps.com</a>下的软件都可以通过这个软件更新，虽然我只有在想更新的时候打开它。</p>
+<h2 id="PotDesktop"><a href="#PotDesktop" class="headerlink" title="PotDesktop"></a>PotDesktop</h2><p>划词翻译，刚下的，不咋会用。</p>
+<h2 id="PotPlayer"><a href="#PotPlayer" class="headerlink" title="PotPlayer"></a>PotPlayer</h2><p>超棒的视频软件（但是我不常用，基本都在看B站）</p>
+<h2 id="QQ"><a href="#QQ" class="headerlink" title="QQ"></a>QQ</h2><p>功能强大，它也很大，但是我离不开它，还是留着吧。</p>
+<h2 id="Snipaste"><a href="#Snipaste" class="headerlink" title="Snipaste"></a>Snipaste</h2><p>截图软件，还可以贴图，但是我最常用的是QQ。（所以明白我为什么离不开QQ了吧）<a href="https://zh.snipaste.com/">官网</a></p>
+<h2 id="迅雷"><a href="#迅雷" class="headerlink" title="迅雷"></a>迅雷</h2><p>虽然……但要用的时候还是得用它。</p>
+<h2 id="Scrcpy"><a href="#Scrcpy" class="headerlink" title="Scrcpy"></a>Scrcpy</h2><p>手机投屏工具，我用的GUI是B站UP 晨钟酱Official 的。<a href="https://www.bilibili.com/video/BV1pU4y1b7kE/">B站地址</a></p>
+<h2 id="VSCode"><a href="#VSCode" class="headerlink" title="VSCode"></a>VSCode</h2><p>功能强大，我一直以为它很大，但是打开超快速。写代码、搭建博客、管理git都很好用。<a href="https://code.visualstudio.com/download">下载地址</a></p>
+<blockquote>
+<p>变成便携版的方式：下载zip包，解压后在同级目录内新建data文件夹。</p>
+</blockquote>
+<h2 id="关于微信"><a href="#关于微信" class="headerlink" title="关于微信"></a>关于微信</h2><p>因为“小而美”实在有些大，而且我不常用，所以现在在用网页版的。</p>
+<p><a href="https://wx.qq.com/">微信网页版地址</a></p>
+<p>但使用它需要在浏览器里装这个插件<a href="https://github.com/lqzhgood/wechat-need-web">Github地址</a></p>
+<h2 id="开发环境"><a href="#开发环境" class="headerlink" title="开发环境"></a>开发环境</h2><p>我的U盘里还是得放nodejs、git和python的，有时会用到（无聊摸鱼）。</p>
+<p>我全都放在同一个文件夹了，方便写bat文件。</p>
+<h3 id="NodeJs"><a href="#NodeJs" class="headerlink" title="NodeJs"></a>NodeJs</h3><p><a href="https://nodejs.cn/download/">下载地址</a>在这下Zip包解压。这还没完，不然他还是会把模块缓存等放在系统文件夹里的。请看我之后的Bat文件写法。</p>
+<h3 id="Git"><a href="#Git" class="headerlink" title="Git"></a>Git</h3><p><a href="https://git-scm.com/download/win">下载地址</a>下便携版。虽然是便携版但是配置文件依然放在系统用户文件夹，所以还是得看后面的bat文件。</p>
+<h3 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h3><p>这个比较麻烦，而且我需要的是完全版的Python，不能使用嵌入版的，WinPython也很好用，但是我在我的PE里用不了。下面我也是参考了别人的做法。</p>
+<p><a href="https://www.python.org/downloads/windows/">下载地址</a></p>
+<ul>
+<li>需要先下<code>Windows installer</code>版本安装在电脑上。</li>
+<li>一般的安装地址是<code>C:\Users\[你的用户名]\AppData\Local\Programs\Python</code>，到这里把Python文件程序文件夹复制到U盘。</li>
+<li>接下来有点儿麻烦，打开Python文件程序文件夹中的Scripts文件夹。</li>
+<li>用Notepad2等软件修改其中的exe文件（所有文件都需要修改，如果有新增的也需要修改）。划到最底部，修改红线位置。</li>
+</ul>
+<p><img src="https://s2.loli.net/2024/03/05/mEYaOIx8wySVsnl.png" alt="改前"></p>
+<p><img src="https://s2.loli.net/2024/03/05/4mFsRHLrSuWl5IX.png" alt="改后"></p>
+<h3 id="最终设置"><a href="#最终设置" class="headerlink" title="最终设置"></a>最终设置</h3><p>目前文件夹是这样的：</p>
+<p><img src="https://s2.loli.net/2024/03/05/JCzLRsmGKZ18b62.png" alt="文件夹"></p>
+<p>像我这样新建个<code>evi.bat</code>文件，代码如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">@echo off</span><br><span class="line"></span><br><span class="line">set &quot;USERPROFILE=%~d0\Documents&quot;</span><br><span class="line">set &quot;PYTHON_PATH=%~dp0python&quot;</span><br><span class="line">set &quot;NODE_PATH=%~dp0node&quot;</span><br><span class="line">set &quot;GIT_PATH=%~dp0PortableGit&quot;</span><br><span class="line"></span><br><span class="line">set &quot;PATH=%PYTHON_PATH%;%PYTHON_PATH%\Scripts;%PYTHON_PATH%\DLLs;%NODE_PATH%;%NODE_PATH%\node_global;%GIT_PATH%\bin;%PATH%&quot;</span><br><span class="line"></span><br><span class="line">call npm config set prefix &quot;%NODE_PATH%\node_global&quot;</span><br><span class="line">call npm config set cache  &quot;%NODE_PATH%\node_cache&quot;</span><br><span class="line">call npm config set registry https://registry.npm.taobao.org</span><br><span class="line"></span><br><span class="line">cd %USERPROFILE%</span><br><span class="line">%1</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p><code>%~d0\Documents</code>位于U盘根目录的Documents文件夹，使用PortableApps的话它会自己创建的，我在这把它用作用户文件夹，一些设置文件会放在这里。不喜欢的话可以自行修改。</p>
+<p>使用时可以把程序拖入，也可以把末尾的<code>%1</code>改成你想启动的程序，比如改成<code>CMD.exe</code>打开它就可以使用带有便携环境的命令行了。</p>
+<p>也可以这么使用，例如我的VSCode所用的Bat（前提是不要改变最后的<code>%1</code>)：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@echo off</span><br><span class="line">set &quot;APPS=%~d0\PortableApps&quot;</span><br><span class="line">%APPS%\CommonFiles\evi.bat &quot;%APPS%\VSCode\Code.exe&quot;</span><br></pre></td></tr></table></figure>
+
+<h2 id="尾言"><a href="#尾言" class="headerlink" title="尾言"></a>尾言</h2><p>便携软件自己研究了挺久的，经验大部分都是从网上学的，如果有变化也会更新的。原来是兼容Win7的，但是有太多软件新版都不支持Win7了（比如python、VSCode等)，如果需要兼容的话请使用低版本的。</p>
+]]></content>
+      <categories>
+        <category>U盘</category>
+      </categories>
+      <tags>
+        <tag>U盘</tag>
+        <tag>便携软件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>初级笔记</title>
+    <url>/2023-04/19592214/</url>
+    <content><![CDATA[<blockquote>
+<p>复习初级时记录的笔记</p>
+</blockquote>
+<span id="more"></span>
+<h2 id="经济法基础"><a href="#经济法基础" class="headerlink" title="经济法基础"></a>经济法基础</h2><h3 id="总论"><a href="#总论" class="headerlink" title="总论"></a>总论</h3><h4 id="法律是由全国人民代表大会常务委员会制定的规范性文件"><a href="#法律是由全国人民代表大会常务委员会制定的规范性文件" class="headerlink" title="法律是由全国人民代表大会常务委员会制定的规范性文件"></a>法律是由全国人民代表大会常务委员会制定的规范性文件</h4><h4 id="法的分类"><a href="#法的分类" class="headerlink" title="法的分类"></a>法的分类</h4><ul>
+<li>根据法律<code>创制和表达形式</code>，分为<code>成文法</code>和<code>不成文法</code></li>
+<li>根据法律<code>规定内容</code>，分为<code>实体法</code>和<code>程序法</code></li>
+<li>根据法律的<code>性质</code>，分为<code>根本法</code>和<code>普通法</code>、<code>一般法</code>和<code>特别法</code></li>
+<li>根据法律的<code>适用范围</code>，分为<code>国内法</code>和<code>国际法</code></li>
+</ul>
+<h4 id="非法人组织和特别法人"><a href="#非法人组织和特别法人" class="headerlink" title="非法人组织和特别法人"></a>非法人组织和特别法人</h4><ul>
+<li>非法人组织包括<code>个人独资企业</code>、<code>合伙企业</code>、<code>不具有法人资格的专业服务机构</code>等。</li>
+<li>法人中的特别法人主要包括：<code>机关法人</code>、<code>农村集体经济组织法人</code>、<code>城镇农村的合伙经济组织法人</code>、<code>基层群众性自治组织法人</code>。</li>
+</ul>
+<h4 id="法律关系客体应当具备的特征"><a href="#法律关系客体应当具备的特征" class="headerlink" title="法律关系客体应当具备的特征"></a>法律关系客体应当具备的特征</h4><p>能为人类所<code>控制</code>并对人类<code>有价值</code></p>
+<h4 id="16岁以上、不满18岁的公民，以自己劳务收入为主要生活来源的，视为完全民事行为能力人。"><a href="#16岁以上、不满18岁的公民，以自己劳务收入为主要生活来源的，视为完全民事行为能力人。" class="headerlink" title="16岁以上、不满18岁的公民，以自己劳务收入为主要生活来源的，视为完全民事行为能力人。"></a>16岁以上、不满18岁的公民，以自己劳务收入为主要生活来源的，视为完全民事行为能力人。</h4><h4 id="法律行为和法律事件"><a href="#法律行为和法律事件" class="headerlink" title="法律行为和法律事件"></a>法律行为和法律事件</h4><ul>
+<li><strong>区别：</strong><br>法律行为以法律关系主体意志为转移<br>法律事件不以当事人的主观意志为转移</li>
+<li><strong>法律行为：</strong><ul>
+<li>根据行为<code>是否符合法律规范</code>的要求分<code>合法行为</code>、<code>违法行为</code>。  </li>
+<li>根据行为的<code>表现形式不同</code>分<code>积极行为</code>(又称作为，如签发支票)、<code>消极行为</code>(又称不作为，如竞业限制)。  </li>
+<li>根据行为是否<code>通过意思表示</code>分为<code>表示行为</code>(如签订合同)、<code>非表示行为</code>(如拾得遗失物、发现埋藏物)。  </li>
+<li>根据<code>主体意思表示的形式</code>分<code>单方行为</code>(如遗嘱、行政命令)、<code>多方行为</code>(如合同行为)。  </li>
+<li>根据行为是否<code>需要特定形式或实质要件</code>分<code>要式行为</code>(如票据行为)、<code>非要式行为</code>(如口头订立的合同)。  </li>
+<li>根据<code>主体实际参与行为的状态</code>分<code>自主行为</code>、<code>代理行为</code>。  </li>
+</ul>
+</li>
+<li><strong>法律事件：</strong> 绝对事件，如地震、洪水、台风、生老病死等。相对事件，如爆发战争、重大政策的改变等(社会现象)。</li>
+</ul>
+<h4 id="已满14周岁不满16周岁的人犯故意杀人、故意伤害致人重伤或死亡、强奸、抢劫、贩卖毒品、防火、爆炸、投放危险物质罪的，应当负刑事责任。"><a href="#已满14周岁不满16周岁的人犯故意杀人、故意伤害致人重伤或死亡、强奸、抢劫、贩卖毒品、防火、爆炸、投放危险物质罪的，应当负刑事责任。" class="headerlink" title="已满14周岁不满16周岁的人犯故意杀人、故意伤害致人重伤或死亡、强奸、抢劫、贩卖毒品、防火、爆炸、投放危险物质罪的，应当负刑事责任。"></a>已满14周岁不满16周岁的人犯故意杀人、故意伤害致人重伤或死亡、强奸、抢劫、贩卖毒品、防火、爆炸、投放危险物质罪的，<strong>应当负刑事责任</strong>。</h4><h4 id="自然人的行为能力不同于权利能力，具有行为能力必须先有权利能力，但具有权利能力并不必然具有行为能力。"><a href="#自然人的行为能力不同于权利能力，具有行为能力必须先有权利能力，但具有权利能力并不必然具有行为能力。" class="headerlink" title="自然人的行为能力不同于权利能力，具有行为能力必须先有权利能力，但具有权利能力并不必然具有行为能力。"></a>自然人的行为能力不同于权利能力，具有行为能力必须先有权利能力，但具有权利能力并不必然具有行为能力。</h4><h4 id="在我国，由全国人民代表大会及其常委会、国务院制定的规范性法律文件，如宪法、法律、行政法规，除法律有特别规定的外，均在全国范围有效。"><a href="#在我国，由全国人民代表大会及其常委会、国务院制定的规范性法律文件，如宪法、法律、行政法规，除法律有特别规定的外，均在全国范围有效。" class="headerlink" title="在我国，由全国人民代表大会及其常委会、国务院制定的规范性法律文件，如宪法、法律、行政法规，除法律有特别规定的外，均在全国范围有效。"></a>在我国，由全国人民代表大会及其常委会、国务院制定的规范性法律文件，如宪法、法律、行政法规，除法律有特别规定的外，均在全国范围有效。</h4>]]></content>
+      <categories>
+        <category>Other</category>
+      </categories>
+      <tags>
+        <tag>会计初级</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>会计初级错题集</title>
+    <url>/2023-04/f87e6708/</url>
+    <content><![CDATA[<blockquote>
+<p>用于记录会计初级错题，好像应该是注会的题目了。</p>
+</blockquote>
+<span id="more"></span>
+<h2 id="（单选）下列各项关于企业应遵循的会计信息质量要求的表述中，正确的是（）。"><a href="#（单选）下列各项关于企业应遵循的会计信息质量要求的表述中，正确的是（）。" class="headerlink" title="（单选）下列各项关于企业应遵循的会计信息质量要求的表述中，正确的是（）。"></a>（单选）下列各项关于企业应遵循的会计信息质量要求的表述中，<code>正确</code>的是（）。</h2><div class="tabs" id="错题"><ul class="nav-tabs"><li class="tab active"><a href="#错题-1">原题</a></li><li class="tab"><a href="#错题-2">解析</a></li></ul><div class="tab-content"><div class="tab-pane active" id="错题-1"><ul>
+<li>A. 企业应当以实际发生的交易或事项为依据进行确认计量和报告。</li>
+<li>B. 企业对不同的会计期间发生的相同交易或事项可以采用不同的会计政策。</li>
+<li>C. 企业在资产负债表日对尚未获得全部信息交易事项不应进行会计处理。</li>
+<li>D. 企业对不重要的会计差错无需进行差错更正。</li>
+</ul></div><div class="tab-pane" id="错题-2"><ul>
+<li><strong>A. 企业应当以实际发生的交易或事项为依据进行确认计量和报告。</strong></li>
+<li>B. 企业对不同的会计期间发生的相同交易或事项<mark class="label danger"><del>可以</del><strong>应当</strong></mark>采用<mark class="label danger"><del>不同</del><strong>相同</strong></mark>的会计政策。</li>
+<li>C. 企业在资产负债表日对尚未获得全部信息交易事项<mark class="label danger"><del>不应</del><strong>应该</strong></mark>进行会计处理。<blockquote>
+<p>如果企业等到与交易或事项有关的全部信息获得之后再进行会计处理，这样的信息披露虽然提高了信息的可靠性，单可能会由于时效性问题，对于投资者等财务报告使用者决策的有用性大大降低，违背及时性会计信息质量要求。</p>
+</blockquote>
+</li>
+<li>D. 企业对不重要的会计差错<mark class="label danger"><del>无需</del><strong>需要</strong></mark>进行差错更正。<blockquote>
+<p>企业对不重要的会计差错也应进行差错更正，只是不需要追溯到以前年度，只需在当期进行更正即可。</p>
+</blockquote>
+</li>
+</ul></div></div></div>
+
+<h2 id="（多选）下列交易事项中，能够引起资产和所有者权益同时发生变动的有？"><a href="#（多选）下列交易事项中，能够引起资产和所有者权益同时发生变动的有？" class="headerlink" title="（多选）下列交易事项中，能够引起资产和所有者权益同时发生变动的有？"></a>（多选）下列交易事项中，<code>能够</code>引起资产和所有者权益同时发生变动的有？</h2><div class="tabs" id="错题2"><ul class="nav-tabs"><li class="tab active"><a href="#错题2-1">原题</a></li><li class="tab"><a href="#错题2-2">解析</a></li></ul><div class="tab-content"><div class="tab-pane active" id="错题2-1"><ul>
+<li>A. 分配股票股利</li>
+<li>B. 接受现金捐赠</li>
+<li>C. 财产清查中固定资产盘盈</li>
+<li>D. 以银行存款支付原材料采购款</li>
+</ul></div><div class="tab-pane" id="错题2-2"><ul>
+<li>A. 分配股票股利<blockquote>
+<p>借：利润分配<br>  &emsp;贷：股本<br>  <em>属于所有者权益内部结转</em></p>
+</blockquote>
+</li>
+<li><strong>B. 接受现金捐赠</strong><blockquote>
+<p>借：库存现金<br>  &emsp;贷：营业外收入<br>  <em>营业外收入属于利得，影响所有者权益</em></p>
+</blockquote>
+</li>
+<li><strong>C. 财产清查中固定资产盘盈</strong><blockquote>
+<ol>
+<li>借：固定资产<br>&emsp;贷：以前年度损益   </li>
+<li>借：以前年度损益<br>&emsp;贷：利润分配————未分配利润<br><em>固定资产属于资产，未分配利润属于所有者权益</em></li>
+</ol>
+</blockquote>
+</li>
+<li>D. 以银行存款支付原材料采购款<blockquote>
+<p>借：原材料<br>  &emsp;贷：银行存款<br>  <em>属于资产内部增减变动</em></p>
+</blockquote>
+</li>
+</ul></div></div></div>
+
+<h2 id="（多选）下列各项中，不符合资产会计要素定义的有？"><a href="#（多选）下列各项中，不符合资产会计要素定义的有？" class="headerlink" title="（多选）下列各项中，不符合资产会计要素定义的有？"></a>（多选）下列各项中，<code>不符合</code>资产会计要素定义的有？</h2><div class="tabs" id="错题3"><ul class="nav-tabs"><li class="tab active"><a href="#错题3-1">原题</a></li><li class="tab"><a href="#错题3-2">解析</a></li></ul><div class="tab-content"><div class="tab-pane active" id="错题3-1"><ul>
+<li>A. 约定未来购入的存货</li>
+<li>B. 生产成本</li>
+<li>C. 等建期间发生的开办费</li>
+<li>D. 尚待加工的半成品</li>
+</ul></div><div class="tab-pane" id="错题3-2"><ul>
+<li><strong>A. 约定未来购入的存货</strong><blockquote>
+<p>不是过去交易或事项形成的</p>
+</blockquote>
+</li>
+<li>B. 生产成本<blockquote>
+<p>生产完工的产品结转到库存商品中，库存商品属于资产，所以生产成本也属于资产</p>
+</blockquote>
+</li>
+<li><strong>C. 等建期间发生的开办费</strong><blockquote>
+<p>预计不会给企业带来利益，属于费用</p>
+</blockquote>
+</li>
+<li>D. 尚待加工的半成品</li>
+</ul>
+<details class="note info"><summary><p>资产会计要素定义</p>
+</summary>
+<p>资产，是指企业过去的交易或者事项形成的，由企业拥有或者控制的，预期会给企业带来经济利益的资源。<br>根据资产的定义，资产具有以下几个方面的特征：</p>
+<ol>
+<li>资产预期会给企业带来经济利益。</li>
+<li>资产应为企业拥有或者控制的资源。</li>
+<li>资产是由企业过去的交易或者事项形成的。</li>
+</ol>
+
+</details></div></div></div>
+
+<h2 id="（单选）下列关于费用与损失的表述中，正确的是（）。"><a href="#（单选）下列关于费用与损失的表述中，正确的是（）。" class="headerlink" title="（单选）下列关于费用与损失的表述中，正确的是（）。"></a>（单选）下列关于费用与损失的表述中，<code>正确</code>的是（）。</h2><div class="tabs" id="错题4"><ul class="nav-tabs"><li class="tab active"><a href="#错题4-1">原题</a></li><li class="tab"><a href="#错题4-2">解析</a></li></ul><div class="tab-content"><div class="tab-pane active" id="错题4-1"><ul>
+<li>A. 损失是由企业非日常活动所发生的、会导致所有者权益减少的、与向所有者分配利润无关的总流出。</li>
+<li>B. 费用和损失都是经济利益的流出并最终导致所有者权益减少。</li>
+<li>C. 费用和损失的主要区别在于是否计入企业当期损益。</li>
+<li>D. 企业发生的损失在会计上应计入营业外收入。</li>
+</ul></div><div class="tab-pane" id="错题4-2"><ul>
+<li>A. 损失是由企业非日常活动所发生的、会导致所有者权益减少的、与向所有者分配利润无关的<mark class="label danger"><del>总流出</del><strong>净流出</strong></mark>。</li>
+<li><strong>B. 费用和损失都是经济利益的流出并最终导致所有者权益减少。</strong></li>
+<li>C. 费用和损失的主要区别在于是否计入企业当期损益。<blockquote>
+<p>有一类损失是不计入当期损益，而是直接计入所有者权益，但也有计入当期损益的损失。</p>
+</blockquote>
+</li>
+<li>D. 企业发生的损失在会计上应计入营业外收入。<blockquote>
+<p>损失可能计入“营业外收入”、“其他综合收益”等科目，不一定是营业外收入</p>
+</blockquote>
+</li>
+</ul>
+<details class="note info"><summary><p>费用与损失的区别</p>
+</summary>
+<p>费用是与<code>日常活动</code>有关的，而损失与<code>非日常活动</code>有关。费用是经济利益<code>总流出</code>，损失是经济利益<code>净流出</code>。</p>
+
+</details>  
+<details class="note info"><summary><p>计入所有者权益的利得和损失</p>
+</summary>
+<p>计入所有者权益的利得和损失主要有以下几种情况:</p>
+<ol>
+<li>可供出售金融资产的公允价值变动</li>
+<li>权益法下被投资单位其他所有者权益的变动</li>
+<li>与计入所有者权益项目相关的所得税</li>
+<li>固定资产等转为投资性房地产时公允价值变动</li>
+<li>以权益结算的股份支付而形成的费用</li>
+<li>利用衍生工具进行套期时</li>
+</ol>
+
+</details></div></div></div>
+
+<h2 id="（多选）下列各项中，属于利得的有"><a href="#（多选）下列各项中，属于利得的有" class="headerlink" title="（多选）下列各项中，属于利得的有?"></a>（多选）下列各项中，属于<code>利得</code>的有?</h2><div class="tabs" id="错题5"><ul class="nav-tabs"><li class="tab active"><a href="#错题5-1">原题</a></li><li class="tab"><a href="#错题5-2">解析</a></li></ul><div class="tab-content"><div class="tab-pane active" id="错题5-1"><ul>
+<li>A. 出租无形资产取得的收益。</li>
+<li>B. 投资者的出资额大于其在被投资单位注册资本中所占份额的金额。</li>
+<li>C. 报废固定资产产生的净收益。</li>
+<li>D. 其他债权投资公允价值上升。</li>
+</ul></div><div class="tab-pane" id="错题5-2"><ul>
+<li>A. 出租无形资产取得的收益。<blockquote>
+<p>应计入其他业务收入，不属于利得<br><strong>会计分录：</strong><br>借：银行存款<br>　　贷：其他业务收入<br>　　　　应交税费一应交增值税(销项税额)</p>
+</blockquote>
+</li>
+<li>B. 投资者的出资额大于其在被投资单位注册资本中所占份额的金额。<blockquote>
+<p>应计入资本公积（资本溢价或股本溢价），不属于利得，属于权益性交易，直接计入权益，不影响当期损益。</p>
+</blockquote>
+</li>
+<li><strong>C. 报废固定资产产生的净收益。</strong><blockquote>
+<p>属于营业外收入，属于计入当期损益的利得<br><strong>固定资产报废，进行处置时：</strong><br>借：固定资产清理<br>　　累计折旧<br>　　固定资产减值准备<br>　　贷：固定资产<br><strong>处置固定资产产生收入时：</strong><br>借：银行存款<br>　　贷：固定资产清理<br>　　　　应交税费——应交增值税（销项税额）<br><strong>若处置产生利得：</strong><br>　　借：固定资产清理<br>　　　　贷：营业外收入——非流动性资产处置利得<br><strong>若处置实现损失：</strong><br>　　借：营业外支出——非流动性资产处置损失<br>　　　　贷：固定资产清理  </p>
+</blockquote>
+</li>
+<li><strong>D. 其他债权投资公允价值上升。</strong><blockquote>
+<p>计入其他综合收益，属于直接计入所有者权益的利得。  </p>
+</blockquote>
+</li>
+</ul>
+<details class="note info"><summary><p>利得的定义和分类</p>
+</summary>
+<p>利得是指由企业非日常活动所形成的、会导致所有者权益增加的、与所有者投入资本无关的经济利益的流入。<br>分为：</p>
+<ol>
+<li>直接计入所有者权益的利得（不会影响利润）  </li>
+<li>直接计入当期利润的利得  </li>
+</ol>
+<p>不管是直接计入当期损益的利得还是直接计入所有者权益的利得，最终都会<code>导致所有者权益的增加</code>。<br>通过<code>“营业外收入”</code>科目核算的固定资产盘盈、处置固定资产净收益、出售无形资产收益、罚款净收入等，属于利得的范畴；通过<code>“补贴收入”</code>科目核算的退还的增值税、按销量或工作量等和国家规定的补助定额计算并按期给予的定额补贴，也属于利得的范畴。</p>
+
+</details></div></div></div>
+
+<h2 id="（多选）下列各项资产负债中，应当采用公允价值进行后续计量的有？"><a href="#（多选）下列各项资产负债中，应当采用公允价值进行后续计量的有？" class="headerlink" title="（多选）下列各项资产负债中，应当采用公允价值进行后续计量的有？"></a>（多选）下列各项资产负债中，<code>应当</code>采用公允价值进行后续计量的有？</h2><div class="tabs" id="错题6"><ul class="nav-tabs"><li class="tab active"><a href="#错题6-1">原题</a></li><li class="tab"><a href="#错题6-2">解析</a></li></ul><div class="tab-content"><div class="tab-pane active" id="错题6-1"><ul>
+<li>A. 持有以备出售的商品</li>
+<li>B. 为交易目的持有的5年期债券</li>
+<li>C. 远期外汇合同形成的衍生金融负债</li>
+<li>D. 实施以现金结算的股份支付计划形成的应付职工薪酬</li>
+</ul></div><div class="tab-pane" id="错题6-2"><ul>
+<li>A. 持有以备出售的商品<blockquote>
+<p>存货按照成本与可变现净值孰低进行期末计量，不采用公允价值</p>
+</blockquote>
+</li>
+<li><strong>B. 为交易目的持有的5年期债券</strong><blockquote>
+<p>为交易持有的债券属于交易性金融资产核算的范围，后续计量采用公允价值计量</p>
+</blockquote>
+</li>
+<li><strong>C. 远期外汇合同形成的衍生金融负债</strong><blockquote>
+<p>属于交易性金融负债，后续计量也采用公允价值计量</p>
+</blockquote>
+</li>
+<li><strong>D. 实施以现金结算的股份支付计划形成的应付职工薪酬</strong><blockquote>
+<p>按照股价的公允价值为基础确定</p>
+</blockquote>
+</li>
+</ul></div></div></div>
+
+<h2 id="（单选）在历史成本计量下，下列表述中，错误的是？"><a href="#（单选）在历史成本计量下，下列表述中，错误的是？" class="headerlink" title="（单选）在历史成本计量下，下列表述中，错误的是？"></a>（单选）在历史成本计量下，下列表述中，错误的是？</h2><div class="tabs" id="错题7"><ul class="nav-tabs"><li class="tab active"><a href="#错题7-1">原题</a></li><li class="tab"><a href="#错题7-2">解析</a></li></ul><div class="tab-content"><div class="tab-pane active" id="错题7-1"><ul>
+<li>A. 负债按预期需要偿还的现金或现金等价物计量</li>
+<li>B. 负债按因承担现时义务的合同金额</li>
+<li>C. 资产按购买时支付的现金或现金等价物的金额计量</li>
+<li>D. 资产按购置资产时所付出的对价公允价值计量</li>
+</ul></div><div class="tab-pane" id="错题7-2"><ul>
+<li><strong>A. 负债按预期需要偿还的现金或现金等价物计量</strong></li>
+<li>B. 负债按因承担现时义务的合同金额</li>
+<li>C. 资产按购买时支付的现金或现金等价物的金额计量</li>
+<li>D. 资产按购置资产时所付出的对价公允价值计量</li>
+</ul>
+<blockquote>
+<p><strong><code>历史成本</code>下，<code>资产</code>可按照以下方式计量：</strong>  </p>
+<ol>
+<li>其购置时支付的现金或现金等价物的金额  </li>
+<li>购置资产时所付出的对价的公允价值计量</li>
+</ol>
+<p><strong><code>历史成本</code>下，<code>负债</code>可按照以下方式计量：</strong>  </p>
+<ol>
+<li>因承担现时义务而实际收到的款项或资产的金额</li>
+<li>承担现时义务的合同金额</li>
+<li>日常生活为偿还负债预期所需支付的现金或现金等价物</li>
+</ol>
+</blockquote></div></div></div>
+
+<h2 id="（单选-下列各项会计信息质量要求中对相关性和可靠性起制约作用的是？"><a href="#（单选-下列各项会计信息质量要求中对相关性和可靠性起制约作用的是？" class="headerlink" title="（单选)下列各项会计信息质量要求中对相关性和可靠性起制约作用的是？"></a>（单选)下列各项会计信息质量要求中对相关性和可靠性起制约作用的是？</h2><details class="note info"><summary><p>会计信息质量要求</p>
+</summary>
+<ol>
+<li><code>可靠性</code>原则：<code>如实</code>地反映实际发生的交易或事项，不弄虚作假；  </li>
+<li><code>相关性</code>原则：所提供的会计信息<code>应当能够反映</code>企业的财务状况、经营成果和现金流量，以满足会计信息使用者的需要；  </li>
+<li><code>可理解性</code>原则：指企业的会计核算和编制的财务会计报告应当<code>清晰明了，便于理解和利用</code>；  </li>
+<li><code>可比性</code>原则：指企业的会计核算应当按规定的会计处理方法进行，会计指标应当息<code>口径一致、相互可比</code>； </li>
+<li><code>及时性</code>原则：指企业的会计核算应当<code>及时进行</code>，不得提前也不得滞后；</li>
+<li><code>重要性</code>原则：指在会计核算过程中，对交易或事项应当区别其重要程度，采用不同的核算方式；</li>
+<li><code>谨慎性</code>原则：指企业在进行会计核算时，应当遵循谨慎性原则的要求，不得多计资产或收益、少计负债或费用； </li>
+<li><code>实质重于形式</code>的原则：指应当按照交易或事项的经济<code>实质</code>进行会计核算，而不应当仅仅按照它们的法律形式作为会计核算的依据。</li>
+</ol>
+
+</details>
+
+<details class="note info"><summary><p>答案和解析</p>
+</summary>
+<p><strong>及时性</strong><br>会计信息的价值在于帮助所有者或者其他会计信息使用者作出经济决策，具有时效性。即使是可靠、相关的会计信息，如果不及时提供，就失去了时效性，对于使用者的效用就大大降低，为了及时提供会计信息，可能需要在有关交易或事项的信息全部获得之前就进行会计处理，这样虽然满足了会计信息及时性要求，但可能会影响会计信息的可靠性。</p>
+
+</details>
+
+<h2 id="（单选）下列关于会计要素的表述中，正确的是？"><a href="#（单选）下列关于会计要素的表述中，正确的是？" class="headerlink" title="（单选）下列关于会计要素的表述中，正确的是？"></a>（单选）下列关于会计要素的表述中，<code>正确</code>的是？</h2><div class="tabs" id="错题9"><ul class="nav-tabs"><li class="tab active"><a href="#错题9-1">原题</a></li><li class="tab"><a href="#错题9-2">解析</a></li></ul><div class="tab-content"><div class="tab-pane active" id="错题9-1"><ul>
+<li>A. 负责的特征之一是企业的潜在义务</li>
+<li>B. 所有者权益是指企业资产扣除负债后，由所有者权益享有的剩余价值</li>
+<li>C. 利润是企业一定时期内收入减去费用后的净额</li>
+<li>D. 收入是指所有导致所有者权益增加的经济利益的总流入</li>
+</ul></div><div class="tab-pane" id="错题9-2"><ul>
+<li>A. 负责的特征之一是企业的<mark class="label danger"><del>潜在义务</del><strong>现时义务</strong></mark></li>
+<li><strong>B. 所有者权益是指企业资产扣除负债后，由所有者权益享有的剩余价值</strong></li>
+<li>C. 利润是企业一定时期内收入减去费用后的净额<blockquote>
+<p>利润是指企业在一定会计期间的经营成果，包括收入减去费用的净额，直接计入当期利润的利得和损失等</p>
+</blockquote>
+</li>
+<li>D. 收入是指<mark class="label danger">所有导致所有者权益增加</mark>的经济利益的总流入<blockquote>
+<p>收入是指企业在日常活动中形成的，会导致所有者权益增加的，与所有者投入资本无关的经济利益的总流入</p>
+</blockquote>
+</li>
+</ul></div></div></div>
+
+<h2 id="（单选）各项关于资产期末计量的表述中，正确的是？"><a href="#（单选）各项关于资产期末计量的表述中，正确的是？" class="headerlink" title="（单选）各项关于资产期末计量的表述中，正确的是？"></a>（单选）各项关于资产期末计量的表述中，<code>正确</code>的是？</h2><div class="tabs" id="错题10"><ul class="nav-tabs"><li class="tab active"><a href="#错题10-1">原题</a></li><li class="tab"><a href="#错题10-2">解析</a></li></ul><div class="tab-content"><div class="tab-pane active" id="错题10-1"><ul>
+<li>A. 无形资产期末按照可回收金额计量</li>
+<li>B. 固定资产期末按照账面价值与可回收金额孰低进行计量</li>
+<li>C. 远期外汇合同形成的衍生金融负债期末按照历史成本计量</li>
+<li>D. 存货期末按照账面价值</li>
+</ul></div><div class="tab-pane" id="错题10-2"><ul>
+<li>A. 无形资产期末按照可回收金额计量<blockquote>
+<p>固定资产减值准备和无形资产减值准备不可转回，期末按账面价值与可回收金额孰低计量</p>
+</blockquote>
+</li>
+<li><strong>B. 固定资产期末按照账面价值与可回收金额孰低进行计量</strong></li>
+<li>C. 远期外汇合同形成的衍生金融负债期末按照<mark class="label danger"><del>历史成本</del><strong>公允价值</strong></mark>计量</li>
+<li>D. 存货期末按照账面价值<blockquote>
+<p>因存货跌价准备可转回，不应按账面价值与可变现净值孰低计量，而应<code>按成本与可变现净值孰低计量</code>。<br>如期末计提或转回存货跌价准备前存货账面余额为100万元,存货跌价准备余额为20万元，此时账面价值为80万元，当期末可变现净值为90万元时，存货应转回存货跌价准备10万元，即存货期末按90万元计量。</p>
+</blockquote>
+</li>
+</ul></div></div></div>
+
+<h2 id="（多选）关于会计基本假设，下列各项表述中正确的有？"><a href="#（多选）关于会计基本假设，下列各项表述中正确的有？" class="headerlink" title="（多选）关于会计基本假设，下列各项表述中正确的有？"></a>（多选）关于会计基本假设，下列各项表述中<code>正确</code>的有？</h2><div class="tabs" id="错题11"><ul class="nav-tabs"><li class="tab active"><a href="#错题11-1">原题</a></li><li class="tab"><a href="#错题11-2">解析</a></li></ul><div class="tab-content"><div class="tab-pane active" id="错题11-1"><ul>
+<li>A. 会计主体确定了会计核算的空间范围</li>
+<li>B. 货币计量是指会计主体在财务会计确认、计量和报告时以货币作为计量尺度，反应会计主体的生产经营活动</li>
+<li>C. 会计分期假设是权责发生制的产生依据</li>
+<li>D. 持续经营是会计分期的前提</li>
+</ul></div><div class="tab-pane" id="错题11-2"><p><strong>全是对的。</strong>  </p>
+<details class="note info"><summary><p>会计基本假设</p>
+</summary>
+<p>会计的基本假设是企业会计<code>确认、计量、记录和报告的前提</code>，是对会计核算时间和空间范围以及所采用的主要计量单位等所作的合理假定，会计基本假设包括<code>会计主体</code>、<code>持续经营</code>、<code>会计分期</code>和<code>货币计量</code>。</p>
+<ol>
+<li><strong>会计主体</strong>，是指会计工作服务的特定对象，是会计确认、计量、记录和报告的<code>空间范围</code>。在会计主体假设下，企业应当对其本身发生的交易或事项进行会计确认、计量、记录和报告，反映企业本身所从事的各项生产经营活动和其他相关活动。</li>
+<li><strong>持续经营</strong>，是指在可以预见的将来，企业将会按当前的规模和状态继续经营下去，不会停业，也不会大规模削减业务。</li>
+<li><strong>会计分期</strong>，是指将一个企业持续经营的生产经营活动划分为一个个连续的、长短相同的期间。会计期间通常分为会计年度和中期。中期，是指短于一个完整的会计年度的报告期间，如月度、季度、半年度。</li>
+<li><strong>货币计量</strong>，是指会计主体在会计确认、计量、记录和报告时主要以货币作为计量单位，来反映会计主体的生产经营活动过程及其结果。</li>
+</ol>
+
+</details></div></div></div>
+
+<h2 id="（多选）下列各项交易事项的会计处理中，体现实质重于形式的有？"><a href="#（多选）下列各项交易事项的会计处理中，体现实质重于形式的有？" class="headerlink" title="（多选）下列各项交易事项的会计处理中，体现实质重于形式的有？"></a>（多选）下列各项交易事项的会计处理中，体现<code>实质重于形式</code>的有？</h2><div class="tabs" id="错题12"><ul class="nav-tabs"><li class="tab active"><a href="#错题12-1">原题</a></li><li class="tab"><a href="#错题12-2">解析</a></li></ul><div class="tab-content"><div class="tab-pane active" id="错题12-1"><ul>
+<li>A. 将发行的附有强制付息义务的优先股确认为负债</li>
+<li>B. 将企业未持有权益但能够控制的结构化主体纳入合并范围</li>
+<li>C. 将附有追索权的商业承兑汇票出售确认为质押货款</li>
+<li>D. 承租人将租入固定资产确认为本企业的使用权资产</li>
+</ul></div><div class="tab-pane" id="错题12-2"><p><strong>全是对的。</strong></p>
+<ul>
+<li>A. 将发行的附有强制付息义务的优先股确认为负债<blockquote>
+<p>由于发行的优先股附有强制付息义务，所以企业应当确认为一项金融负债而非权益工具</p>
+</blockquote>
+</li>
+<li>B. 将企业未持有权益但能够控制的结构化主体纳入合并范围<blockquote>
+<p>结构化主体是指在确定其控制方时没有将表决权或类似权力作为决定因素而设计的主体，企业没有持有权益，所以形式上企业不能够控制该主体，但<strong>实质上企业能够控制</strong>。</p>
+</blockquote>
+</li>
+<li>C. 将附有追索权的商业承兑汇票出售确认为质押货款<blockquote>
+<p>附有追索权，风险并没有转移，企业不能终止确认应付票据，而应把收到的款项作为短期借款处理</p>
+</blockquote>
+</li>
+<li>D. 承租人将租入固定资产确认为本企业的使用权资产</li>
+</ul></div></div></div>
+
+<h2 id="（多选）根据企业会计准则的规定，下列有关收入和利得的表述中，错误的有？"><a href="#（多选）根据企业会计准则的规定，下列有关收入和利得的表述中，错误的有？" class="headerlink" title="（多选）根据企业会计准则的规定，下列有关收入和利得的表述中，错误的有？"></a>（多选）根据企业会计准则的规定，下列有关收入和利得的表述中，<code>错误</code>的有？</h2><div class="tabs" id="错题13"><ul class="nav-tabs"><li class="tab active"><a href="#错题13-1">原题</a></li><li class="tab"><a href="#错题13-2">解析</a></li></ul><div class="tab-content"><div class="tab-pane active" id="错题13-1"><ul>
+<li>A. 收入和利得都与所有者投入资本无关</li>
+<li>B. 收入影响利润，利得也一定影响利润</li>
+<li>C. 收入源于日常活动，利得源于非日常活动</li>
+<li>D. 收入会导致所有者权益增加，利得不一定导致所有者权益增加</li>
+</ul></div><div class="tab-pane" id="错题13-2"><ul>
+<li>A. 收入和利得都与所有者投入资本无关<blockquote>
+<p>所有者投入资本计入实收资本和资本公积，与收入和利得无关</p>
+</blockquote>
+</li>
+<li><strong>B. 收入影响利润，利得也一定影响利润</strong><blockquote>
+<p>利得也有可能计入所有者权益</p>
+</blockquote>
+</li>
+<li>C. 收入源于日常活动，利得源于非日常活动</li>
+<li><strong>D. 收入会导致所有者权益增加，利得不一定导致所有者权益增加</strong><blockquote>
+<p>收入和利得两者都一定会导致所有者权益增加</p>
+</blockquote>
+</li>
+</ul></div></div></div>
+
+<h2 id="（多选）下列各项表述中，正确的有？"><a href="#（多选）下列各项表述中，正确的有？" class="headerlink" title="（多选）下列各项表述中，正确的有？"></a>（多选）下列各项表述中，<code>正确</code>的有？</h2><div class="tabs" id="错题14"><ul class="nav-tabs"><li class="tab active"><a href="#错题14-1">原题</a></li><li class="tab"><a href="#错题14-2">解析</a></li></ul><div class="tab-content"><div class="tab-pane active" id="错题14-1"><ul>
+<li>A. 收入不包括为第三方或客户代收的款项</li>
+<li>B. 公允价值变动损失作为会计要素“费用”，会影响当期损益</li>
+<li>C. 企业在一定期间发生亏损，则该企业在这一会计期间的所有者权益总额一定减少</li>
+<li>D. 会计计量是为了将符合确认条件的会计要素登记入账，并列报于财务报表而确定其金额的过程</li>
+</ul></div><div class="tab-pane" id="错题14-2"><ul>
+<li><strong>A. 收入不包括为第三方或客户代收的款项</strong></li>
+<li>B. 公允价值变动损失作为会计要素“费用”，会影响当期损益<blockquote>
+<p>公允价值变动是直接计入当期损益的“损失”，不属于“费用”，但会影响当期损益</p>
+</blockquote>
+</li>
+<li>C. 企业在一定期间发生亏损，则该企业在这一会计期间的所有者权益总额一定减少<blockquote>
+<p>企业在一定期间发生亏损，由此会导致所有者权益的减少。但由于所有者权益中有些是与企业盈亏无关的项目（如实收资本和资本公积），因此企业在一定期间发生亏损，所有者权益不一定减少。</p>
+</blockquote>
+</li>
+<li><strong>D. 会计计量是为了将符合确认条件的会计要素登记入账，并列报于财务报表而确定其金额的过程</strong></li>
+</ul></div></div></div>
+
+<h2 id="（多选）下列各项资产、负债中，应当采用公允价值进行后续计量的有？"><a href="#（多选）下列各项资产、负债中，应当采用公允价值进行后续计量的有？" class="headerlink" title="（多选）下列各项资产、负债中，应当采用公允价值进行后续计量的有？"></a>（多选）下列各项资产、负债中，应当<code>采用公允价值进行后续计量</code>的有？</h2><div class="tabs" id="错题15"><ul class="nav-tabs"><li class="tab active"><a href="#错题15-1">原题</a></li><li class="tab"><a href="#错题15-2">解析</a></li></ul><div class="tab-content"><div class="tab-pane active" id="错题15-1"><ul>
+<li>A. 将公司生产的产品作为非货币性福利发放给职工</li>
+<li>B. 以公允价值计量且变动计入当期损益的金融负债</li>
+<li>C. 以公允价值计量且变动计入其他综合收益的金融资产</li>
+<li>D. 实施以现金结算的股份支付计划形成的应付职工薪酬</li>
+</ul></div><div class="tab-pane" id="错题15-2"><ul>
+<li>A. 将公司生产的产品作为非货币性福利发放给职工<blockquote>
+<p>应将产品的售价和销项税额计入成本费用，属于公允价值计量属性</p>
+</blockquote>
+</li>
+<li>B. 以公允价值计量且变动计入当期损益的金融负债</li>
+<li>C. 以公允价值计量且变动计入其他综合收益的金融资产</li>
+<li>D. 实施以现金结算的股份支付计划形成的应付职工薪酬<blockquote>
+<p>每个资产负债表日，按公允价值重新计量应付职工薪酬余额，属于公允价值计量属性</p>
+</blockquote>
+</li>
+</ul></div></div></div>]]></content>
+      <categories>
+        <category>Other</category>
+      </categories>
+      <tags>
+        <tag>会计初级</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>blog美化记录</title>
+    <url>/2023-04/9b1c2aff/</url>
+    <content><![CDATA[<p>目前这个blog所美化的代码及总结。</p>
+<span id="more"></span>
+<blockquote>
+<p><strong>使用软件及其版本：</strong><br>node: 12.22.12<br>hexo: 5.4.2<br>hexo-cli: 4.3.0<br>git: 2.40.0.windows.1<br>hexo-theme-next</p>
+</blockquote>
+<h2 id="侧边栏添加播放器，且切换网页不会中断"><a href="#侧边栏添加播放器，且切换网页不会中断" class="headerlink" title="侧边栏添加播放器，且切换网页不会中断"></a>侧边栏添加播放器，且切换网页不会中断</h2><ol>
+<li>安装<a href="https://github.com/MoePlayer/hexo-tag-aplayer">hexo-tag-aplayer</a><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-tag-aplayer</span><br></pre></td></tr></table></figure></li>
+<li>在<code>_config.yml</code>中添加设置<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">aplayer:</span><br><span class="line">  meting: true</span><br><span class="line">  asset_inject: false</span><br></pre></td></tr></table></figure></li>
+<li>在博客目录下的<code>source/_data/header.njk</code>（没有文件夹或文件就新建）写入以下代码。<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 引用Aplayer和metingjs--&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">href</span>=<span class="string">&quot;https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css&quot;</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;my-aplayer&quot;</span></span></span><br><span class="line"><span class="tag"> <span class="attr">class</span>=<span class="string">&quot;aplayer&quot;</span></span></span><br><span class="line"><span class="tag"> <span class="attr">data-id</span>=<span class="string">&quot;8276622146&quot;</span> // <span class="attr">必须</span>，<span class="attr">歌曲id</span>、<span class="attr">播放列表id</span>、<span class="attr">相册id</span>、<span class="attr">搜索关键字</span></span></span><br><span class="line"><span class="tag"> <span class="attr">data-server</span>=<span class="string">&quot;netease&quot;</span> // <span class="attr">必须</span>，<span class="attr">音乐平台:</span> <span class="attr">netease</span>, <span class="attr">tencent</span>, <span class="attr">kugou</span>, <span class="attr">xiami</span>, <span class="attr">baidu</span></span></span><br><span class="line"><span class="tag"> <span class="attr">data-type</span>=<span class="string">&quot;playlist&quot;</span> // <span class="attr">必须</span>，<span class="attr">song</span>, <span class="attr">playlist</span>, <span class="attr">album</span>, <span class="attr">search</span>, <span class="attr">artist</span></span></span><br><span class="line"><span class="tag"> <span class="attr">data-fixed</span>=<span class="string">&quot;false&quot;</span> // <span class="attr">吸底模式可以固定播放器于页面底部</span>，<span class="attr">但是这里我要放在侧边栏中</span>，<span class="attr">所以是false</span></span></span><br><span class="line"><span class="tag"> <span class="attr">data-fixed</span>=<span class="string">&quot;true&quot;</span> // <span class="attr">开启固定模式</span></span></span><br><span class="line"><span class="tag"> <span class="attr">data-autoplay</span>=<span class="string">&quot;false&quot;</span> // <span class="attr">自动播放</span></span></span><br><span class="line"><span class="tag"> <span class="attr">data-order</span>=<span class="string">&quot;random&quot;</span> // <span class="attr">列表播放模式:list</span>,<span class="attr">random</span></span></span><br><span class="line"><span class="tag"> <span class="attr">data-volume</span>=<span class="string">&quot;0.8&quot;</span> </span></span><br><span class="line"><span class="tag"> <span class="attr">data-theme</span>=<span class="string">&quot;#be98aa&quot;</span></span></span><br><span class="line"><span class="tag"> <span class="attr">data-preload</span>=<span class="string">&quot;auto&quot;</span></span></span><br><span class="line"><span class="tag"> <span class="attr">data-mutex</span>=<span class="string">&quot;true&quot;</span></span></span><br><span class="line"><span class="tag"> <span class="attr">data-listfolded</span>=<span class="string">&quot;true&quot;</span></span></span><br><span class="line"><span class="tag"> &gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure></li>
+<li>修改<code>_config.next.yml</code>文件<ul>
+<li><code>custom_file_path</code>下的<code>header: source/_data/header.njk</code>取消注释。</li>
+<li>修改<code>pjax</code>项为true，如<code>pjax: true</code>。</li>
+</ul>
+</li>
+</ol>
+<h2 id="Next主题颜色样式美化"><a href="#Next主题颜色样式美化" class="headerlink" title="Next主题颜色样式美化"></a>Next主题颜色样式美化</h2><ol>
+<li>博客目录下新建<code>source/_data/header.njk</code>。</li>
+<li>修改<code>_config.next.yml</code>文件，<code>custom_file_path</code>下的<code>style: source/_data/styles.styl</code>和<code>variable: source/_data/variables.styl</code>取消注释。<ul>
+<li><code>styles.styl</code>文件是用来修改样式的。</li>
+<li><code>variables.styl</code>文件是用来修改颜色变量的。</li>
+</ul>
+</li>
+</ol>
+<h3 id="variables-styl"><a href="#variables-styl" class="headerlink" title="variables.styl"></a>variables.styl</h3><p>仅放出我的代码，因为具体的我也不太清楚。</p>
+<figure class="highlight styl"><table><tr><td class="code"><pre><span class="line"><span class="variable">$whitesmoke</span>   = <span class="built_in">hsl</span>(<span class="number">22</span>, <span class="number">40%</span>, <span class="number">96%</span>);</span><br><span class="line"><span class="variable">$gainsboro</span>    = <span class="built_in">hsl</span>(<span class="number">22</span>, <span class="number">38%</span>, <span class="number">93%</span>);</span><br><span class="line"><span class="variable">$grey</span>-lighter = <span class="built_in">hsl</span>(<span class="number">22</span>, <span class="number">36%</span>, <span class="number">87%</span>);</span><br><span class="line"><span class="variable">$grey</span>-light   = <span class="built_in">hsl</span>(<span class="number">22</span>, <span class="number">34%</span>, <span class="number">80%</span>);</span><br><span class="line"><span class="variable">$grey</span>         = <span class="built_in">hsl</span>(<span class="number">22</span>, <span class="number">32%</span>, <span class="number">73%</span>);</span><br><span class="line"><span class="variable">$grey</span>-dark    = <span class="built_in">hsl</span>(<span class="number">23</span>, <span class="number">30%</span>, <span class="number">60%</span>);</span><br><span class="line"><span class="variable">$grey</span>-dim     = <span class="built_in">hsl</span>(<span class="number">23</span>, <span class="number">28%</span>, <span class="number">40%</span>);</span><br><span class="line"><span class="variable">$black</span>-light  = <span class="built_in">hsl</span>(<span class="number">23</span>, <span class="number">26%</span>, <span class="number">33%</span>);</span><br><span class="line"><span class="variable">$black</span>-dim    = <span class="built_in">hsl</span>(<span class="number">23</span>, <span class="number">24%</span>, <span class="number">20%</span>);</span><br><span class="line"><span class="variable">$black</span>-deep   = <span class="built_in">hsl</span>(<span class="number">23</span>, <span class="number">22%</span>, <span class="number">13%</span>);</span><br><span class="line"><span class="variable">$red</span>          = <span class="number">#bf477f</span>;</span><br><span class="line"><span class="variable">$blue</span>-bright  = <span class="number">#fcd7e8</span>;</span><br><span class="line"><span class="variable">$blue</span>         = <span class="number">#dca0b2</span>;</span><br><span class="line"><span class="variable">$blue</span>-deep    = <span class="number">#be98aa</span>;</span><br><span class="line"><span class="variable">$orange</span>       = <span class="number">#465e65</span>;</span><br></pre></td></tr></table></figure>
+
+<h3 id="styles-styl"><a href="#styles-styl" class="headerlink" title="styles.styl"></a>styles.styl</h3><h4 id="设置背景"><a href="#设置背景" class="headerlink" title="设置背景"></a>设置背景</h4><figure class="highlight styl"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">body</span> &#123;</span><br><span class="line">    <span class="comment">/* 设置背景颜色 */</span></span><br><span class="line">    <span class="attribute">margin</span>: <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="number">#be98aa</span>;</span><br><span class="line">    <span class="attribute">background-image</span>: </span><br><span class="line">    <span class="built_in">radial-gradient</span>(closest-side, <span class="built_in">rgba</span>(<span class="number">170</span>, <span class="number">142</span>, <span class="number">245</span>, <span class="number">1</span>), <span class="built_in">rgba</span>(<span class="number">235</span>, <span class="number">105</span>, <span class="number">78</span>, <span class="number">0</span>)),</span><br><span class="line">    <span class="built_in">radial-gradient</span>(closest-side, <span class="built_in">rgba</span>(<span class="number">190</span>, <span class="number">151</span>, <span class="number">170</span>, <span class="number">1</span>), <span class="built_in">rgba</span>(<span class="number">243</span>, <span class="number">11</span>, <span class="number">164</span>, <span class="number">0</span>)),</span><br><span class="line">    <span class="built_in">radial-gradient</span>(closest-side, <span class="built_in">rgba</span>(<span class="number">254</span>, <span class="number">234</span>, <span class="number">131</span>, <span class="number">1</span>), <span class="built_in">rgba</span>(<span class="number">254</span>, <span class="number">234</span>, <span class="number">131</span>, <span class="number">0</span>)),</span><br><span class="line">    <span class="built_in">radial-gradient</span>(closest-side, <span class="built_in">rgba</span>(<span class="number">190</span>, <span class="number">151</span>, <span class="number">170</span>, <span class="number">1</span>), <span class="built_in">rgba</span>(<span class="number">170</span>, <span class="number">142</span>, <span class="number">245</span>, <span class="number">0</span>)),</span><br><span class="line">    <span class="built_in">radial-gradient</span>(closest-side, <span class="built_in">rgba</span>(<span class="number">248</span>, <span class="number">192</span>, <span class="number">147</span>, <span class="number">1</span>), <span class="built_in">rgba</span>(<span class="number">248</span>, <span class="number">192</span>, <span class="number">147</span>, <span class="number">0</span>));</span><br><span class="line">    <span class="attribute">background-size</span>: </span><br><span class="line">    <span class="number">130vmax</span> <span class="number">130vmax</span>,</span><br><span class="line">    <span class="number">80vmax</span> <span class="number">80vmax</span>,</span><br><span class="line">    <span class="number">90vmax</span> <span class="number">90vmax</span>,</span><br><span class="line">    <span class="number">110vmax</span> <span class="number">110vmax</span>,</span><br><span class="line">    <span class="number">90vmax</span> <span class="number">90vmax</span>;</span><br><span class="line">    <span class="attribute">background-position</span>:</span><br><span class="line">    -<span class="number">80vmax</span> -<span class="number">80vmax</span>,</span><br><span class="line">    <span class="number">60vmax</span> -<span class="number">30vmax</span>,</span><br><span class="line">    <span class="number">10vmax</span> <span class="number">10vmax</span>,</span><br><span class="line">    -<span class="number">30vmax</span> -<span class="number">10vmax</span>,</span><br><span class="line">    <span class="number">50vmax</span> <span class="number">50vmax</span>;</span><br><span class="line">    <span class="attribute">background-repeat</span>: no-repeat;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="设置各部分背景透明度"><a href="#设置各部分背景透明度" class="headerlink" title="设置各部分背景透明度"></a>设置各部分背景透明度</h4><figure class="highlight styl"><table><tr><td class="code"><pre><span class="line"><span class="comment">//文章内容透明度设置</span></span><br><span class="line"><span class="selector-class">.content</span><span class="selector-class">.wrap</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">0.6</span>;</span><br><span class="line">    &#125;</span><br><span class="line"><span class="selector-class">.post-block</span> &#123;</span><br><span class="line">    <span class="attribute">background</span>: <span class="built_in">rgba</span>(<span class="number">255</span>,<span class="number">255</span>,<span class="number">255</span>,<span class="number">0.5</span>) none repeat scroll <span class="meta">!important</span>;</span><br><span class="line">    &#125;</span><br><span class="line"><span class="comment">//菜单透明</span></span><br><span class="line">.header&#123;</span><br><span class="line">    <span class="attribute">background</span>: <span class="built_in">rgba</span>(<span class="number">255</span>,<span class="number">255</span>,<span class="number">255</span>,<span class="number">0.5</span>) none repeat scroll <span class="meta">!important</span>;</span><br><span class="line">    &#125;</span><br><span class="line"><span class="comment">//边栏透明</span></span><br><span class="line">.sidebar-inner&#123;</span><br><span class="line">    <span class="attribute">background</span>: <span class="built_in">rgba</span>(<span class="number">255</span>,<span class="number">255</span>,<span class="number">255</span>,<span class="number">0.5</span>) none repeat scroll <span class="meta">!important</span>;</span><br><span class="line">    &#125;</span><br><span class="line"><span class="comment">//评论区透明（不知道有没有用）</span></span><br><span class="line">.comments&#123;</span><br><span class="line">    <span class="attribute">background</span>: <span class="built_in">rgba</span>(<span class="number">255</span>,<span class="number">255</span>,<span class="number">255</span>,<span class="number">0.5</span>) none repeat scroll <span class="meta">!important</span>;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+<h4 id="文章标题样式"><a href="#文章标题样式" class="headerlink" title="文章标题样式"></a>文章标题样式</h4><figure class="highlight styl"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">h1</span></span><br><span class="line">    <span class="attribute">color</span> <span class="number">#3e3f4c</span></span><br><span class="line"><span class="selector-tag">h2</span></span><br><span class="line">    <span class="attribute">margin</span> .<span class="number">5em</span> auto</span><br><span class="line">    <span class="attribute">color</span> <span class="number">#3e3f4c</span></span><br><span class="line">    <span class="attribute">padding-bottom</span> <span class="number">5px</span></span><br><span class="line">    <span class="attribute">font-size</span> <span class="number">1.5rem</span></span><br><span class="line">    <span class="selector-pseudo">&amp;::before</span></span><br><span class="line">        <span class="attribute">color</span> <span class="number">#be98aa</span></span><br><span class="line">        <span class="attribute">content</span> <span class="string">&quot;\f70e  &quot;</span></span><br><span class="line">        <span class="attribute">width</span>: <span class="number">9px</span></span><br><span class="line">        <span class="attribute">height</span>: <span class="number">9px</span></span><br><span class="line">        <span class="attribute">font-family</span>: FontAwesome</span><br><span class="line"><span class="selector-tag">h3</span></span><br><span class="line">    <span class="attribute">margin</span> .<span class="number">5em</span> auto</span><br><span class="line">    <span class="attribute">color</span> <span class="number">#be98aa</span></span><br><span class="line">    <span class="attribute">background</span> <span class="number">#3e3f4c</span></span><br><span class="line">    <span class="attribute">border-left</span> <span class="number">4px</span> solid <span class="number">#be98aa</span></span><br><span class="line">    <span class="attribute">padding</span> .<span class="number">2em</span> .<span class="number">6em</span></span><br><span class="line">    <span class="attribute">box-shadow</span> <span class="number">1px</span> <span class="number">1px</span> <span class="number">1px</span> <span class="built_in">rgba</span>(<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>, .<span class="number">1</span>)</span><br><span class="line">    <span class="selector-pseudo">&amp;:hover</span> <span class="selector-tag">a</span></span><br><span class="line">        <span class="attribute">text-decoration</span> underline</span><br><span class="line">    <span class="selector-pseudo">&amp;::after</span></span><br><span class="line">        <span class="attribute">content</span> <span class="string">&quot; \f061&quot;</span></span><br><span class="line">        <span class="attribute">width</span>: <span class="number">9px</span></span><br><span class="line">        <span class="attribute">height</span>: <span class="number">9px</span></span><br><span class="line">        <span class="attribute">font-family</span>: FontAwesome</span><br><span class="line"><span class="selector-tag">h4</span>, <span class="selector-tag">h5</span>, <span class="selector-tag">h6</span></span><br><span class="line">    <span class="attribute">margin-top</span> <span class="number">20px</span></span><br><span class="line">    <span class="attribute">padding-bottom</span> <span class="number">5px</span></span><br><span class="line">    <span class="attribute">border-bottom</span> <span class="number">1px</span> solid <span class="number">#ddd</span></span><br><span class="line"><span class="selector-tag">h4</span><span class="selector-pseudo">::before</span></span><br><span class="line">    <span class="attribute">color</span> <span class="number">#be98aa</span></span><br><span class="line">    <span class="attribute">content</span> <span class="string">&quot;\f4d8  &quot;</span></span><br><span class="line">    <span class="attribute">width</span>: <span class="number">9px</span></span><br><span class="line">    <span class="attribute">height</span>: <span class="number">9px</span></span><br><span class="line">    <span class="attribute">font-family</span>: FontAwesome</span><br><span class="line"><span class="selector-tag">h5</span><span class="selector-pseudo">::before</span></span><br><span class="line">    <span class="attribute">color</span> <span class="number">#be98aa</span></span><br><span class="line">    <span class="attribute">content</span> <span class="string">&quot;\f0c2  &quot;</span></span><br><span class="line">    <span class="attribute">width</span>: <span class="number">9px</span></span><br><span class="line">    <span class="attribute">height</span>: <span class="number">9px</span></span><br><span class="line">    <span class="attribute">font-family</span>: FontAwesome</span><br><span class="line"><span class="selector-tag">h6</span><span class="selector-pseudo">::before</span></span><br><span class="line">    <span class="attribute">color</span> <span class="number">#be98aa</span></span><br><span class="line">    <span class="attribute">content</span> <span class="string">&quot;\f004  &quot;</span></span><br><span class="line">    <span class="attribute">width</span>: <span class="number">9px</span></span><br><span class="line">    <span class="attribute">height</span>: <span class="number">9px</span></span><br><span class="line">    <span class="attribute">font-family</span>: FontAwesome</span><br></pre></td></tr></table></figure>
+<h4 id="blockquote"><a href="#blockquote" class="headerlink" title="blockquote"></a>blockquote</h4><figure class="highlight styl"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">blockquote</span></span><br><span class="line">    <span class="attribute">padding</span> .<span class="number">4em</span> <span class="number">20px</span></span><br><span class="line">    <span class="attribute">margin</span> .<span class="number">5em</span> auto</span><br><span class="line">    <span class="attribute">border-left</span> <span class="number">4px</span> solid <span class="number">#af888a</span></span><br><span class="line">    <span class="attribute">background</span> <span class="built_in">rgba</span>(<span class="number">241</span>, <span class="number">229</span>, <span class="number">222</span>,<span class="number">1</span>)</span><br><span class="line">    <span class="attribute">box-shadow</span> <span class="number">1px</span> <span class="number">1px</span> <span class="number">1px</span> <span class="built_in">rgba</span>(<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>, .<span class="number">1</span>)</span><br><span class="line">    <span class="selector-tag">p</span></span><br><span class="line">        <span class="attribute">margin</span> .<span class="number">4em</span> auto</span><br><span class="line">    <span class="selector-tag">blockquote</span></span><br><span class="line">        <span class="attribute">border-left</span> none</span><br><span class="line">    <span class="selector-tag">footer</span></span><br><span class="line">        <span class="attribute">font-style</span> italic</span><br><span class="line">        <span class="selector-tag">cite</span><span class="selector-pseudo">::before</span></span><br><span class="line">            <span class="attribute">content</span> <span class="string">&quot;—&quot;</span></span><br><span class="line">            <span class="attribute">padding</span> <span class="number">0</span> .<span class="number">3em</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="按钮设定-就改了一下颜色"><a href="#按钮设定-就改了一下颜色" class="headerlink" title="按钮设定(就改了一下颜色)"></a>按钮设定(就改了一下颜色)</h4><figure class="highlight styl"><table><tr><td class="code"><pre><span class="line"><span class="comment">//按钮 .btn</span></span><br><span class="line"><span class="selector-class">.btn</span></span><br><span class="line">  <span class="attribute">background</span> <span class="built_in">rgba</span>(<span class="number">255</span>, <span class="number">255</span>,<span class="number">255</span>,<span class="number">0</span>)</span><br><span class="line">  <span class="attribute">border</span> <span class="number">2px</span> solid <span class="number">#3e3f4c</span></span><br><span class="line">  <span class="attribute">color</span> <span class="number">#3e3f4c</span></span><br><span class="line">  <span class="selector-pseudo">&amp;:hover</span></span><br><span class="line">    <span class="attribute">background</span> <span class="number">#3e3f4c</span></span><br><span class="line">    <span class="attribute">border-color</span> <span class="number">#be98aa</span></span><br><span class="line">    <span class="attribute">color</span> <span class="number">#be98aa</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="其他的一些颜色设置"><a href="#其他的一些颜色设置" class="headerlink" title="其他的一些颜色设置"></a>其他的一些颜色设置</h4><figure class="highlight styl"><table><tr><td class="code"><pre><span class="line"><span class="comment">//页脚字体颜色</span></span><br><span class="line">.footer&#123;</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#000</span></span><br><span class="line">    &#125;</span><br><span class="line"><span class="comment">//右上角的标题字体颜色</span></span><br><span class="line">.site-title&#123;</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#be98aa</span></span><br><span class="line">    &#125;</span><br><span class="line">.site-subtitle&#123;</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#be98aa</span></span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Other</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Next</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>MarkDown学习笔记</title>
     <url>/2023-04/da7ed36c/</url>
     <content><![CDATA[<p>学习makedown的笔记，记录用。</p>
@@ -133,83 +698,6 @@
       </categories>
       <tags>
         <tag>MarkDown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>TODO</title>
-    <url>/2023-04/6c9b5b14/</url>
-    <content><![CDATA[<p>这是我的第一篇文章，也是我这个博客之后将要写的内容的整理。将会持续更新。</p>
-<span id="more"></span>
-<h2 id="文章分类"><a href="#文章分类" class="headerlink" title="文章分类"></a>文章分类</h2><h3 id="python"><a href="#python" class="headerlink" title="python"></a>python</h3><p>编写一些奇奇怪怪的python程序的过程或者心得之类的</p>
-<blockquote>
-<p>TODO  </p>
-<ul>
-<li><input disabled="" type="checkbox"> （可能）重构我的骰娘小程序</li>
-</ul>
-</blockquote>
-<h3 id="U盘"><a href="#U盘" class="headerlink" title="U盘"></a>U盘</h3><p>打造我的全能U盘的过程，我现在在用的U盘是闪迪Cz880 128G，只能说勉强够用。使用ventoy引导，分了两个分区，一个用来放PE的镜像和我的arch to go的虚拟硬盘给ventoy引导，另一个分区用来放portableapps程序和各种便携程序。之后应该会详细介绍的。</p>
-<blockquote>
-<p>TODO  </p>
-<ul>
-<li><input disabled="" type="checkbox"> 利用winpython打造便携编程环境（含VS Code和NodeJs)</li>
-<li><input disabled="" type="checkbox"> 我的U盘中便携软件介绍</li>
-</ul>
-</blockquote>
-<h3 id="Inky"><a href="#Inky" class="headerlink" title="Inky"></a>Inky</h3><p>用来放我自己使用Inky制作的各种文本游戏，但是我近期没有想写的计划。</p>
-<h3 id="Arch"><a href="#Arch" class="headerlink" title="Arch"></a>Arch</h3><p>一些使用Arch时的心得，目前依然没什么想写的计划。</p>
-<h3 id="Other"><a href="#Other" class="headerlink" title="Other"></a>Other</h3><p>记录一些杂七杂八的事情。</p>
-]]></content>
-      <categories>
-        <category>Other</category>
-      </categories>
-      <tags>
-        <tag>Other</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>blog美化记录</title>
-    <url>/2023-04/9b1c2aff/</url>
-    <content><![CDATA[<p>目前这个blog所美化的代码及总结。</p>
-<span id="more"></span>
-<blockquote>
-<p><strong>使用软件及其版本：</strong><br>node: 12.22.12<br>hexo: 5.4.2<br>hexo-cli: 4.3.0<br>git: 2.40.0.windows.1<br>hexo-theme-next</p>
-</blockquote>
-<h2 id="侧边栏添加播放器，且切换网页不会中断"><a href="#侧边栏添加播放器，且切换网页不会中断" class="headerlink" title="侧边栏添加播放器，且切换网页不会中断"></a>侧边栏添加播放器，且切换网页不会中断</h2><ol>
-<li>安装<a href="https://github.com/MoePlayer/hexo-tag-aplayer">hexo-tag-aplayer</a><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-tag-aplayer</span><br></pre></td></tr></table></figure></li>
-<li>在<code>_config.yml</code>中添加设置<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">aplayer:</span><br><span class="line">  meting: true</span><br><span class="line">  asset_inject: false</span><br></pre></td></tr></table></figure></li>
-<li>在博客目录下的<code>source/_data/header.njk</code>（没有文件夹或文件就新建）写入以下代码。<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 引用Aplayer和metingjs--&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">href</span>=<span class="string">&quot;https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css&quot;</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;my-aplayer&quot;</span></span></span><br><span class="line"><span class="tag"> <span class="attr">class</span>=<span class="string">&quot;aplayer&quot;</span></span></span><br><span class="line"><span class="tag"> <span class="attr">data-id</span>=<span class="string">&quot;8276622146&quot;</span> // <span class="attr">必须</span>，<span class="attr">歌曲id</span>、<span class="attr">播放列表id</span>、<span class="attr">相册id</span>、<span class="attr">搜索关键字</span></span></span><br><span class="line"><span class="tag"> <span class="attr">data-server</span>=<span class="string">&quot;netease&quot;</span> // <span class="attr">必须</span>，<span class="attr">音乐平台:</span> <span class="attr">netease</span>, <span class="attr">tencent</span>, <span class="attr">kugou</span>, <span class="attr">xiami</span>, <span class="attr">baidu</span></span></span><br><span class="line"><span class="tag"> <span class="attr">data-type</span>=<span class="string">&quot;playlist&quot;</span> // <span class="attr">必须</span>，<span class="attr">song</span>, <span class="attr">playlist</span>, <span class="attr">album</span>, <span class="attr">search</span>, <span class="attr">artist</span></span></span><br><span class="line"><span class="tag"> <span class="attr">data-fixed</span>=<span class="string">&quot;false&quot;</span> // <span class="attr">吸底模式可以固定播放器于页面底部</span>，<span class="attr">但是这里我要放在侧边栏中</span>，<span class="attr">所以是false</span></span></span><br><span class="line"><span class="tag"> <span class="attr">data-fixed</span>=<span class="string">&quot;true&quot;</span> // <span class="attr">开启固定模式</span></span></span><br><span class="line"><span class="tag"> <span class="attr">data-autoplay</span>=<span class="string">&quot;false&quot;</span> // <span class="attr">自动播放</span></span></span><br><span class="line"><span class="tag"> <span class="attr">data-order</span>=<span class="string">&quot;random&quot;</span> // <span class="attr">列表播放模式:list</span>,<span class="attr">random</span></span></span><br><span class="line"><span class="tag"> <span class="attr">data-volume</span>=<span class="string">&quot;0.8&quot;</span> </span></span><br><span class="line"><span class="tag"> <span class="attr">data-theme</span>=<span class="string">&quot;#be98aa&quot;</span></span></span><br><span class="line"><span class="tag"> <span class="attr">data-preload</span>=<span class="string">&quot;auto&quot;</span></span></span><br><span class="line"><span class="tag"> <span class="attr">data-mutex</span>=<span class="string">&quot;true&quot;</span></span></span><br><span class="line"><span class="tag"> <span class="attr">data-listfolded</span>=<span class="string">&quot;true&quot;</span></span></span><br><span class="line"><span class="tag"> &gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure></li>
-<li>修改<code>_config.next.yml</code>文件<ul>
-<li><code>custom_file_path</code>下的<code>header: source/_data/header.njk</code>取消注释。</li>
-<li>修改<code>pjax</code>项为true，如<code>pjax: true</code>。</li>
-</ul>
-</li>
-</ol>
-<h2 id="Next主题颜色样式美化"><a href="#Next主题颜色样式美化" class="headerlink" title="Next主题颜色样式美化"></a>Next主题颜色样式美化</h2><ol>
-<li>博客目录下新建<code>source/_data/header.njk</code>。</li>
-<li>修改<code>_config.next.yml</code>文件，<code>custom_file_path</code>下的<code>style: source/_data/styles.styl</code>和<code>variable: source/_data/variables.styl</code>取消注释。<ul>
-<li><code>styles.styl</code>文件是用来修改样式的。</li>
-<li><code>variables.styl</code>文件是用来修改颜色变量的。</li>
-</ul>
-</li>
-</ol>
-<h3 id="variables-styl"><a href="#variables-styl" class="headerlink" title="variables.styl"></a>variables.styl</h3><p>仅放出我的代码，因为具体的我也不太清楚。</p>
-<figure class="highlight styl"><table><tr><td class="code"><pre><span class="line"><span class="variable">$whitesmoke</span>   = <span class="built_in">hsl</span>(<span class="number">22</span>, <span class="number">40%</span>, <span class="number">96%</span>);</span><br><span class="line"><span class="variable">$gainsboro</span>    = <span class="built_in">hsl</span>(<span class="number">22</span>, <span class="number">38%</span>, <span class="number">93%</span>);</span><br><span class="line"><span class="variable">$grey</span>-lighter = <span class="built_in">hsl</span>(<span class="number">22</span>, <span class="number">36%</span>, <span class="number">87%</span>);</span><br><span class="line"><span class="variable">$grey</span>-light   = <span class="built_in">hsl</span>(<span class="number">22</span>, <span class="number">34%</span>, <span class="number">80%</span>);</span><br><span class="line"><span class="variable">$grey</span>         = <span class="built_in">hsl</span>(<span class="number">22</span>, <span class="number">32%</span>, <span class="number">73%</span>);</span><br><span class="line"><span class="variable">$grey</span>-dark    = <span class="built_in">hsl</span>(<span class="number">23</span>, <span class="number">30%</span>, <span class="number">60%</span>);</span><br><span class="line"><span class="variable">$grey</span>-dim     = <span class="built_in">hsl</span>(<span class="number">23</span>, <span class="number">28%</span>, <span class="number">40%</span>);</span><br><span class="line"><span class="variable">$black</span>-light  = <span class="built_in">hsl</span>(<span class="number">23</span>, <span class="number">26%</span>, <span class="number">33%</span>);</span><br><span class="line"><span class="variable">$black</span>-dim    = <span class="built_in">hsl</span>(<span class="number">23</span>, <span class="number">24%</span>, <span class="number">20%</span>);</span><br><span class="line"><span class="variable">$black</span>-deep   = <span class="built_in">hsl</span>(<span class="number">23</span>, <span class="number">22%</span>, <span class="number">13%</span>);</span><br><span class="line"><span class="variable">$red</span>          = <span class="number">#bf477f</span>;</span><br><span class="line"><span class="variable">$blue</span>-bright  = <span class="number">#fcd7e8</span>;</span><br><span class="line"><span class="variable">$blue</span>         = <span class="number">#dca0b2</span>;</span><br><span class="line"><span class="variable">$blue</span>-deep    = <span class="number">#be98aa</span>;</span><br><span class="line"><span class="variable">$orange</span>       = <span class="number">#465e65</span>;</span><br></pre></td></tr></table></figure>
-
-<h3 id="styles-styl"><a href="#styles-styl" class="headerlink" title="styles.styl"></a>styles.styl</h3><h4 id="设置背景"><a href="#设置背景" class="headerlink" title="设置背景"></a>设置背景</h4><figure class="highlight styl"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">body</span> &#123;</span><br><span class="line">    <span class="comment">/* 设置背景颜色 */</span></span><br><span class="line">    <span class="attribute">margin</span>: <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="number">#be98aa</span>;</span><br><span class="line">    <span class="attribute">background-image</span>: </span><br><span class="line">    <span class="built_in">radial-gradient</span>(closest-side, <span class="built_in">rgba</span>(<span class="number">170</span>, <span class="number">142</span>, <span class="number">245</span>, <span class="number">1</span>), <span class="built_in">rgba</span>(<span class="number">235</span>, <span class="number">105</span>, <span class="number">78</span>, <span class="number">0</span>)),</span><br><span class="line">    <span class="built_in">radial-gradient</span>(closest-side, <span class="built_in">rgba</span>(<span class="number">190</span>, <span class="number">151</span>, <span class="number">170</span>, <span class="number">1</span>), <span class="built_in">rgba</span>(<span class="number">243</span>, <span class="number">11</span>, <span class="number">164</span>, <span class="number">0</span>)),</span><br><span class="line">    <span class="built_in">radial-gradient</span>(closest-side, <span class="built_in">rgba</span>(<span class="number">254</span>, <span class="number">234</span>, <span class="number">131</span>, <span class="number">1</span>), <span class="built_in">rgba</span>(<span class="number">254</span>, <span class="number">234</span>, <span class="number">131</span>, <span class="number">0</span>)),</span><br><span class="line">    <span class="built_in">radial-gradient</span>(closest-side, <span class="built_in">rgba</span>(<span class="number">190</span>, <span class="number">151</span>, <span class="number">170</span>, <span class="number">1</span>), <span class="built_in">rgba</span>(<span class="number">170</span>, <span class="number">142</span>, <span class="number">245</span>, <span class="number">0</span>)),</span><br><span class="line">    <span class="built_in">radial-gradient</span>(closest-side, <span class="built_in">rgba</span>(<span class="number">248</span>, <span class="number">192</span>, <span class="number">147</span>, <span class="number">1</span>), <span class="built_in">rgba</span>(<span class="number">248</span>, <span class="number">192</span>, <span class="number">147</span>, <span class="number">0</span>));</span><br><span class="line">    <span class="attribute">background-size</span>: </span><br><span class="line">    <span class="number">130vmax</span> <span class="number">130vmax</span>,</span><br><span class="line">    <span class="number">80vmax</span> <span class="number">80vmax</span>,</span><br><span class="line">    <span class="number">90vmax</span> <span class="number">90vmax</span>,</span><br><span class="line">    <span class="number">110vmax</span> <span class="number">110vmax</span>,</span><br><span class="line">    <span class="number">90vmax</span> <span class="number">90vmax</span>;</span><br><span class="line">    <span class="attribute">background-position</span>:</span><br><span class="line">    -<span class="number">80vmax</span> -<span class="number">80vmax</span>,</span><br><span class="line">    <span class="number">60vmax</span> -<span class="number">30vmax</span>,</span><br><span class="line">    <span class="number">10vmax</span> <span class="number">10vmax</span>,</span><br><span class="line">    -<span class="number">30vmax</span> -<span class="number">10vmax</span>,</span><br><span class="line">    <span class="number">50vmax</span> <span class="number">50vmax</span>;</span><br><span class="line">    <span class="attribute">background-repeat</span>: no-repeat;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h4 id="设置各部分背景透明度"><a href="#设置各部分背景透明度" class="headerlink" title="设置各部分背景透明度"></a>设置各部分背景透明度</h4><figure class="highlight styl"><table><tr><td class="code"><pre><span class="line"><span class="comment">//文章内容透明度设置</span></span><br><span class="line"><span class="selector-class">.content</span><span class="selector-class">.wrap</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">0.6</span>;</span><br><span class="line">    &#125;</span><br><span class="line"><span class="selector-class">.post-block</span> &#123;</span><br><span class="line">    <span class="attribute">background</span>: <span class="built_in">rgba</span>(<span class="number">255</span>,<span class="number">255</span>,<span class="number">255</span>,<span class="number">0.5</span>) none repeat scroll <span class="meta">!important</span>;</span><br><span class="line">    &#125;</span><br><span class="line"><span class="comment">//菜单透明</span></span><br><span class="line">.header&#123;</span><br><span class="line">    <span class="attribute">background</span>: <span class="built_in">rgba</span>(<span class="number">255</span>,<span class="number">255</span>,<span class="number">255</span>,<span class="number">0.5</span>) none repeat scroll <span class="meta">!important</span>;</span><br><span class="line">    &#125;</span><br><span class="line"><span class="comment">//边栏透明</span></span><br><span class="line">.sidebar-inner&#123;</span><br><span class="line">    <span class="attribute">background</span>: <span class="built_in">rgba</span>(<span class="number">255</span>,<span class="number">255</span>,<span class="number">255</span>,<span class="number">0.5</span>) none repeat scroll <span class="meta">!important</span>;</span><br><span class="line">    &#125;</span><br><span class="line"><span class="comment">//评论区透明（不知道有没有用）</span></span><br><span class="line">.comments&#123;</span><br><span class="line">    <span class="attribute">background</span>: <span class="built_in">rgba</span>(<span class="number">255</span>,<span class="number">255</span>,<span class="number">255</span>,<span class="number">0.5</span>) none repeat scroll <span class="meta">!important</span>;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
-<h4 id="文章标题样式"><a href="#文章标题样式" class="headerlink" title="文章标题样式"></a>文章标题样式</h4><figure class="highlight styl"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">h1</span></span><br><span class="line">    <span class="attribute">color</span> <span class="number">#3e3f4c</span></span><br><span class="line"><span class="selector-tag">h2</span></span><br><span class="line">    <span class="attribute">margin</span> .<span class="number">5em</span> auto</span><br><span class="line">    <span class="attribute">color</span> <span class="number">#3e3f4c</span></span><br><span class="line">    <span class="attribute">padding-bottom</span> <span class="number">5px</span></span><br><span class="line">    <span class="attribute">font-size</span> <span class="number">1.5rem</span></span><br><span class="line">    <span class="selector-pseudo">&amp;::before</span></span><br><span class="line">        <span class="attribute">color</span> <span class="number">#be98aa</span></span><br><span class="line">        <span class="attribute">content</span> <span class="string">&quot;\f70e  &quot;</span></span><br><span class="line">        <span class="attribute">width</span>: <span class="number">9px</span></span><br><span class="line">        <span class="attribute">height</span>: <span class="number">9px</span></span><br><span class="line">        <span class="attribute">font-family</span>: FontAwesome</span><br><span class="line"><span class="selector-tag">h3</span></span><br><span class="line">    <span class="attribute">margin</span> .<span class="number">5em</span> auto</span><br><span class="line">    <span class="attribute">color</span> <span class="number">#be98aa</span></span><br><span class="line">    <span class="attribute">background</span> <span class="number">#3e3f4c</span></span><br><span class="line">    <span class="attribute">border-left</span> <span class="number">4px</span> solid <span class="number">#be98aa</span></span><br><span class="line">    <span class="attribute">padding</span> .<span class="number">2em</span> .<span class="number">6em</span></span><br><span class="line">    <span class="attribute">box-shadow</span> <span class="number">1px</span> <span class="number">1px</span> <span class="number">1px</span> <span class="built_in">rgba</span>(<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>, .<span class="number">1</span>)</span><br><span class="line">    <span class="selector-pseudo">&amp;:hover</span> <span class="selector-tag">a</span></span><br><span class="line">        <span class="attribute">text-decoration</span> underline</span><br><span class="line">    <span class="selector-pseudo">&amp;::after</span></span><br><span class="line">        <span class="attribute">content</span> <span class="string">&quot; \f061&quot;</span></span><br><span class="line">        <span class="attribute">width</span>: <span class="number">9px</span></span><br><span class="line">        <span class="attribute">height</span>: <span class="number">9px</span></span><br><span class="line">        <span class="attribute">font-family</span>: FontAwesome</span><br><span class="line"><span class="selector-tag">h4</span>, <span class="selector-tag">h5</span>, <span class="selector-tag">h6</span></span><br><span class="line">    <span class="attribute">margin-top</span> <span class="number">20px</span></span><br><span class="line">    <span class="attribute">padding-bottom</span> <span class="number">5px</span></span><br><span class="line">    <span class="attribute">border-bottom</span> <span class="number">1px</span> solid <span class="number">#ddd</span></span><br></pre></td></tr></table></figure>
-<h4 id="blockquote"><a href="#blockquote" class="headerlink" title="blockquote"></a>blockquote</h4><figure class="highlight styl"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">blockquote</span></span><br><span class="line">    <span class="attribute">padding</span> .<span class="number">4em</span> <span class="number">20px</span></span><br><span class="line">    <span class="attribute">margin</span> .<span class="number">5em</span> auto</span><br><span class="line">    <span class="attribute">border-left</span> <span class="number">4px</span> solid <span class="number">#af888a</span></span><br><span class="line">    <span class="attribute">background</span> <span class="built_in">rgba</span>(<span class="number">241</span>, <span class="number">229</span>, <span class="number">222</span>,<span class="number">1</span>)</span><br><span class="line">    <span class="attribute">box-shadow</span> <span class="number">1px</span> <span class="number">1px</span> <span class="number">1px</span> <span class="built_in">rgba</span>(<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>, .<span class="number">1</span>)</span><br><span class="line">    <span class="selector-tag">p</span></span><br><span class="line">        <span class="attribute">margin</span> .<span class="number">4em</span> auto</span><br><span class="line">    <span class="selector-tag">blockquote</span></span><br><span class="line">        <span class="attribute">border-left</span> none</span><br><span class="line">    <span class="selector-tag">footer</span></span><br><span class="line">        <span class="attribute">font-style</span> italic</span><br><span class="line">        <span class="selector-tag">cite</span><span class="selector-pseudo">::before</span></span><br><span class="line">            <span class="attribute">content</span> <span class="string">&quot;—&quot;</span></span><br><span class="line">            <span class="attribute">padding</span> <span class="number">0</span> .<span class="number">3em</span></span><br></pre></td></tr></table></figure>
-
-<h4 id="按钮设定-就改了一下颜色"><a href="#按钮设定-就改了一下颜色" class="headerlink" title="按钮设定(就改了一下颜色)"></a>按钮设定(就改了一下颜色)</h4><figure class="highlight styl"><table><tr><td class="code"><pre><span class="line"><span class="comment">//按钮 .btn</span></span><br><span class="line"><span class="selector-class">.btn</span></span><br><span class="line">  <span class="attribute">background</span> <span class="built_in">rgba</span>(<span class="number">255</span>, <span class="number">255</span>,<span class="number">255</span>,<span class="number">0</span>)</span><br><span class="line">  <span class="attribute">border</span> <span class="number">2px</span> solid <span class="number">#3e3f4c</span></span><br><span class="line">  <span class="attribute">color</span> <span class="number">#3e3f4c</span></span><br><span class="line">  <span class="selector-pseudo">&amp;:hover</span></span><br><span class="line">    <span class="attribute">background</span> <span class="number">#3e3f4c</span></span><br><span class="line">    <span class="attribute">border-color</span> <span class="number">#be98aa</span></span><br><span class="line">    <span class="attribute">color</span> <span class="number">#be98aa</span></span><br></pre></td></tr></table></figure>
-
-<h4 id="其他的一些颜色设置"><a href="#其他的一些颜色设置" class="headerlink" title="其他的一些颜色设置"></a>其他的一些颜色设置</h4><figure class="highlight styl"><table><tr><td class="code"><pre><span class="line"><span class="comment">//页脚字体颜色</span></span><br><span class="line">.footer&#123;</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#000</span></span><br><span class="line">    &#125;</span><br><span class="line"><span class="comment">//右上角的标题字体颜色</span></span><br><span class="line">.site-title&#123;</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#be98aa</span></span><br><span class="line">    &#125;</span><br><span class="line">.site-subtitle&#123;</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#be98aa</span></span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Other</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>Next</tag>
       </tags>
   </entry>
 </search>
